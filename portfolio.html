@@ -1,0 +1,42 @@
+---
+layout: default
+section_id: portfolio
+---
+
+<!-- <div id="portfolio-hero"></div> -->
+
+<div class='mod modMasonryGallery'>
+  <div class='gallery-nav'>
+    <h2 style='color: #fff;'>Our Work</h2>
+    <ul>
+      <li class='current'>
+        <a data-cat='all' href='#'>All</a>
+      </li>
+      <li>
+        <a data-cat='branding' href='#'>Branding</a>
+      </li>
+      <li>
+        <a data-cat='web-development' href='#'>Web Development</a>
+      </li>
+      <li>
+        <a data-cat='print-design' href='#'>Print Design</a>
+      </li>
+    </ul>
+  </div>
+  <ul class='gallery'>
+    {% assign items = site.portfolio | sort: 'date' | reverse %}
+    {% for item in items %}
+      <li class='{{item.tag}}'>
+        <a href='{{item.url}}'>
+          <img alt="{{item.title}}" src="{{item.hero-image}}" />
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <h3>{{item.project}}</h3>
+              <p>{{item.desc}}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,97 @@
+---
+layout: default
+section_id: services
+services:
+  - icon_class: fa fa-picture-o
+    title: Branding
+    desc: At Dinsmore Design, we don’t just create logos, we create brands. Anyone can create an attractive icon to represent your company, but we get to know your business, research your mission and create an identity that resonates specifically with your customers.
+    link: /services/branding
+
+  - icon_class: fa fa-code
+    title: Web Development
+    desc: As a full-service development company, we offer complete builds for your web page or application from the ground up, utilizing the latest technologies, such as Node.JS, Meteor, Jekyll and more.
+    link: /services/web-development
+
+  - icon_class: fa fa-laptop
+    title: Web Design
+    desc: Have a great idea for a website but don't have the budget for a complete build? No worries! We offer WordPress, Ghost and PageKit design and management services to small businesses who need a robust web presence, without all the frills of a custom application.
+    link: /services/web-design
+
+  - icon_class: fa fa-file-text-o
+    title: Print Design
+    desc: We’re here to help you with any design creation you need – from business cards and company letterhead to advertisements and promotional collateral, we want you to reach your customers and look good doing it!
+    link: /services/print-design
+
+  - icon_class: fa fa-comment-o
+    title: Consultation
+    desc: Looking for advice on how to market your company to obtain new clients? Unsure of the direction you should go to get the word out about your newest offerings? We can help guide you and develop a campaign to make your business a rockstar!
+
+buzz_words:
+  - icon_class: fa fa-trophy
+    title: Award Winning
+    desc:
+      Our creativity has been awarded multiple national awards in branding and electronic media. Regardless of the project's scope, we always hold our work to the highest standards.
+
+  - icon_class: fa fa-lightbulb-o
+    title: Innovative Ideas
+    desc:
+      We pride ourselves on creating clean, attractive and modern works that are both simple and elegant. Everything we create is unique and designed to maximize our client’s investment.
+
+  - icon_class: fa fa-clock-o
+    title: Quick Turnaround
+    desc:
+      We don't like to keep our clients waiting; your time is expensive, we get it! Our goal is to always provide a quick turnaround without compromising quality.
+---
+
+<div id="services-hero"></div>
+
+<div class='full' style='background: #333; padding: 40px 0 20px 0;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='color: #fff;'>Our services</h2>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-12 columns'>
+      {% for service in page.services %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='{{service.icon_class}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+            {% if service.link %}
+              <a href="{{service.link}}" class="right">
+                <button class="hollow">
+                    Learn more...
+                </button>
+              </a>
+            {% endif %}
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='full' style='background: #F9CE06'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for words in page.buzz_words %}
+            <div class='box' style='background: #fefefe;'>
+              <i class='{{words.icon_class}}'></i>
+              <h4>{{words.title}}</h4>
+              <p>{{words.desc}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

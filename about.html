@@ -1,0 +1,160 @@
+---
+layout: default
+section_id: about
+title: About Us
+skills:
+  - title: Web Design
+    percent: 84
+  - title: Web Development
+    percent: 95
+  - title: Site Management
+    percent: 70
+  - title: Branding
+    percent: 61
+
+members:
+  - name: Derek
+    position: Developer / Designer
+    desc:
+      - Derek graduated Magna Cum Laude from Arizona State University with a bachelor’s degree in Graphic Information Technology where he specialized in Technical Imaging & Reproduction, as well as 3D Graphics and Animation. Aside from his specializations, he also pursued courses in print media, web design and professional commercial photography.
+      
+      - Currently, Derek works for Mesa Public Schools as the front-end web developer for the district, where he’s in charge of the look and feel of the district’s web presence. Previously, he worked for the district as a Graphic Communications Specialist, where he created newsprint advertisements, graphics for the web and internal and external promotional materials. Derek is a current member of the Arizona chapter of the American Society of Media Photographers (ASMP) and Arizona School Public Relations Association (ASPRA).  He is also a national winner of the 2015 Award of Excellence in NSPRA’s Publications and Electronic Media Contest for his work on the KinderU Preschool Branding Initiative, as well as a 2014 Award of Excellence recipient for his work on the East Valley Academy brochure at Mesa Public Schools.
+    avatar: images/derek.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+  - name: Nykita
+    position: Account Manager
+    desc:
+      - Nykita is a current student at Arizona State University pursuing concurrent degrees in Criminal Justice & Criminology and Biological Sciences with emphasis in Genetics. When she’s not glued to the books studying, Nykita can be found posting to our Facebook page and promoting through outreach to local businesses. While she isn’t formally studying marketing, Nykita has proven to be a great asset to the team, with a natural business sense and excellent customer-relation skills.
+    avatar: images/nykita.jpg
+    socials:
+      - icon_class: fa fa-twitter
+        url: http://twitter.com
+      - icon_class: fa fa-facebook
+        url: http://facebook.com
+      - icon_class: fa fa-dribbble
+        url: http://dribbble.com
+clients:
+  - img: /images/clients/securitytitle.svg
+    alt: Security Title Agency
+    url: http://securitytitle.com/
+  - img: /images/clients/colorroom.svg
+    alt: Color Room Films
+    url: http://colorroomfilms.com/
+  - img: /images/clients/digitaliso.svg
+    alt: DigitalISO
+    url: http://digitaliso.com/
+  - img: /images/clients/altitude.svg
+    alt: Altitude Productions
+    url: http://altitudeproductionstudio.com/
+  - img: /images/clients/remax.svg
+    alt: ReMax
+    url: http://remax.com/
+  - img: /images/clients/yjsw.svg
+    alt: Your Jersey Shore Wedding
+    url: http://yourjerseyshorewedding.com/
+  - img: /images/clients/tequa.svg
+    alt: Tequa Builders
+    url: http://tequabuilders.com/
+  - img: /images/clients/verde.svg
+    alt: Verde Vintage & Thrift
+    url: http://verdevintageaz.com/
+
+---
+
+<div id="about-hero"></div>
+
+<div class='full' style='background: #333; padding: 40px 0 20px 0;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='color: #fff;'>Who we are</h2>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-12 columns'>
+      <h3>Our mission</h3>
+      <div class='spacing'></div>
+      <p>
+        Dinsmore Design is a full-service design and development company in Mesa, Arizona. Our mission is <em>your</em> mission. We help you create meaningful relationships with your clients and develop life-long customers through your brand's initiatives. <em>Our philosophy is simple</em>: provide elegant solutions to complex problems.
+      </p>
+      <div class='two spacing'></div>
+    </div>
+    <!-- <div class='medium-6 columns'>
+      <h3>Our skills</h3>
+      <div class='spacing'></div>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percent}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percent}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div> -->
+  </div>
+</div>
+<div class='two spacing'></div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>The team</h3>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    {% for member in page.members %}
+      <div class='small-12 medium-6 large-6 columns'>
+        <div class='mod modTeamMember style-2'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{site.url}}/{{member.avatar}}" />
+            <!-- <div class='overlay'>
+              <ul class='socials'>
+                {% for social in member.socials %}
+                  <li>
+                    <a href='{{social.url}}'>
+                      <i class='{{social.icon_class}}'></i>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div> -->
+          </div>
+          <h3>{{member.name}}</h3>
+          <p class='position'>{{member.position}}</p>
+          {% for description in member.desc %}
+            <p>{{description}}</p>
+          {% endfor %}
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='two spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h3>Recent Clients:</h3>
+      <div class='spacing'></div>
+      <div class='mod modClients' data-slides_to_show='5'>
+        <div class='clients'>
+          {% for client in page.clients %}
+            <div><a href="{{client.url}}" title="Visit the {{client.alt}} website"><img alt="{{client.alt}} Logo" src="{{client.img}}" /></a></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+   		<img alt="{{ page.title }}" src="{{ page.hero-image }}" class="portfolio-item-hero" />
+
+		<div class='full' style='background: #333; padding: 40px 0 20px 0;'>
+		  	<div class='row'>
+		    	<div class='large-12 columns'>
+		      		<h2 style='color: #fff;'><a href="/portfolio">Portfolio</a> | {{page.client}}</h2>
+		    	</div>
+		  	</div>
+		</div>
+
+
+
+		<div class='full'>
+			<!-- <div class='row'>
+				<div class='large-12 columns'>
+					<img alt="{{ page.title }}" src="{{ page.hero-image }}" />
+				</div>
+			</div>
+
+			<div class='two spacing'></div> -->
+
+			<div class='row'>
+				<div class='large-8 columns'>
+					<h3>{{page.title}}</h3>
+					{{ content }}
+				</div>
+				<div class='large-4 columns'>
+					<ul class='info'>
+						<li>
+							<strong>Summary:</strong>
+							<p>{{ page.summary }}</p>
+						</li>
+						<li>
+							<strong>Client:</strong>
+							<a href="{{ page.website }}">{{ page.client }}</a>
+						</li>
+						<li>
+							<strong>Date:</strong>
+							{{ page.date | date: '%B %Y' }}
+						</li>
+
+						{% if page.images %}
+							<li>
+								<strong>More Images:</strong>
+							  	<ul class="small-block-grid-2 large-block-grid-4" data-clearing>
+							    	{% for image in page.images %}
+							      		<li>
+							        		<img src="{{image.url}}" data-caption="{{image.caption}}" class="th">
+							      		</li>
+							    	{% endfor %}
+							  	</ul>
+							</li>
+						{% endif %}
+
+					</ul>
+				</div>
+			</div>
+			
+			<div class='three spacing'></div>
+			
+		</div>
+
+    </div>
+
+    {% include bottombar.html %}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
