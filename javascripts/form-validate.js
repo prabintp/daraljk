@@ -1,0 +1,1 @@
+jQuery("#contact-form").validate();

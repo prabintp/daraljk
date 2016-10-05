@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Tequa Builders
 project: Website Redesign
-desc:
-  Website design & development for Tequa Builders in Mesa, AZ.
 
 website: http://www.tequabuilders.com
 date: 2015-08-11
 tag: web-development
 
 title: Tequa Builders | Website Redesign
-summary: Website redesigned for Tequa Builders, LLC. for display as a marketing tool. Website was built on the Bootstrap framework utilizing parallax scrolling and custom CSS/PHP/Jquery libraries.
+description: Website redesigned for Tequa Builders, LLC. for display as a marketing tool. Website was built on the Bootstrap framework utilizing parallax scrolling and custom CSS/PHP/Jquery libraries.
 
 hero-image: /images/projects/tequa-builders/tequa.jpg
 images:

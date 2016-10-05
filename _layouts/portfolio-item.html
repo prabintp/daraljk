@@ -37,11 +37,15 @@
 					<ul class='info'>
 						<li>
 							<strong>Summary:</strong>
-							<p>{{ page.summary }}</p>
+							<p>{{ page.description }}</p>
 						</li>
 						<li>
 							<strong>Client:</strong>
-							<a href="{{ page.website }}">{{ page.client }}</a>
+							{% if page.website %}
+								<a href="{{ page.website }}">{{ page.client }}</a>
+							{% else %}
+								{{ page.client }}
+							{% endif %}
 						</li>
 						<li>
 							<strong>Date:</strong>

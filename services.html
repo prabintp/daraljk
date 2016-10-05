@@ -1,30 +1,48 @@
 ---
 layout: default
 section_id: services
+title: Services
+description: View a list of our services, including branding, web development, print design and web management!
+
+custom_js:
+  - slick.min
+  - jquery.appear
+
 services:
   - icon_class: fa fa-picture-o
     title: Branding
     desc: At Dinsmore Design, we don’t just create logos, we create brands. Anyone can create an attractive icon to represent your company, but we get to know your business, research your mission and create an identity that resonates specifically with your customers.
-    link: /services/branding
+    price: Starting at $600
 
   - icon_class: fa fa-code
     title: Web Development
     desc: As a full-service development company, we offer complete builds for your web page or application from the ground up, utilizing the latest technologies, such as Node.JS, Meteor, Jekyll and more.
-    link: /services/web-development
+    price: Starting at $1200
 
   - icon_class: fa fa-laptop
     title: Web Design
     desc: Have a great idea for a website but don't have the budget for a complete build? No worries! We offer WordPress, Ghost and PageKit design and management services to small businesses who need a robust web presence, without all the frills of a custom application.
-    link: /services/web-design
+    price: Starting at $800
 
   - icon_class: fa fa-file-text-o
     title: Print Design
     desc: We’re here to help you with any design creation you need – from business cards and company letterhead to advertisements and promotional collateral, we want you to reach your customers and look good doing it!
-    link: /services/print-design
+    price: Starting at $100
+
+  - icon_class: fa fa-sitemap
+    title: Web Management
+    desc: We get it, you're a busy person, you don't have time to learn the ins-and-outs of your website's system and keep it updated. Let us do it for you! We offer monthly management packages that include content and feature updates to your webpages, whether it's been built from scratch or it's on a content management system, like WordPress.
+    price: Starting at $50 / month
+
+  - icon_class: fa fa-cloud
+    title: Managed Hosting
+    desc: Setting up a brand new web domain or thinking about switching companies? We use lightning-quick Virtual Private Servers (VPS) to deliver your content at blazing-fast speeds. Before you pay another company an arm and a leg for underperforming shared servers, let us manage your site in the cloud for you!
+    price: Starting at $20 / month
 
   - icon_class: fa fa-comment-o
     title: Consultation
     desc: Looking for advice on how to market your company to obtain new clients? Unsure of the direction you should go to get the word out about your newest offerings? We can help guide you and develop a campaign to make your business a rockstar!
+    price: $35 / hour
 
 buzz_words:
   - icon_class: fa fa-trophy
@@ -57,18 +75,11 @@ buzz_words:
   <div class='row'>
     <div class='medium-12 columns'>
       {% for service in page.services %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+        <div class='mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
           <div class='icon-text-simple'>
             <i class='{{service.icon_class}}'></i>
-            <h3>{{service.title}}</h3>
+            <h3>{{service.title}} - <a href="/contact" title="Send us a message for more information!">{{service.price}}</a></h3>
             <p>{{service.desc}}</p>
-            {% if service.link %}
-              <a href="{{service.link}}" class="right">
-                <button class="hollow">
-                    Learn more...
-                </button>
-              </a>
-            {% endif %}
           </div>
           <div class='two spacing'></div>
         </div>

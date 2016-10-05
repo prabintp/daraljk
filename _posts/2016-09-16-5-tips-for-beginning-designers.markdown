@@ -3,7 +3,7 @@ layout: post
 comments: true
 
 title:  5 Tips for Beginning Designers
-date:   2016-02-23
+date:   2016-09-16
 
 image: /images/posts/design-title.jpg
 alt: Sketch of building

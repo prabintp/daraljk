@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Mesa Public Schools
 project: Achieve Magazine
-desc:
-  Selected pages designed for Mesa Public Schools' Achieve Magazine.
 
 website: http://www.mpsaz.org/achieve
 date: 2015-09-14
 tag: print-design
 
 title: Mesa Public Schools | Achieve Magazine
-summary: Selected page spreads designed for various issues of Mesa Public Schools’ Achieve Magazine, a semi-annual publication distributed directly to all homes in Mesa in partnership with Republic Media.
+description: Selected page spreads designed for various issues of Mesa Public Schools’ Achieve Magazine, a semi-annual publication distributed directly to all homes in Mesa in partnership with Republic Media.
 
 hero-image: /images/projects/mps-collateral/achieve1.jpg
 images:

@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: DigitalISO
 project: Identity Creation
-desc:
-  Branding creation for DigitalISO in Mesa, AZ.
 
 website: http://www.digitaliso.com
 date: 2016-05-04
 tag: branding
 
 title: DigitalISO | Identity Creation
-summary: Identity created for Arizona web development startup, DigitalISO, for use on business cards, letterhead, web banners and other advertisement materials and collateral.
+description: Identity created for Arizona web development startup, DigitalISO, for use on business cards, letterhead, web banners and other advertisement materials and collateral.
 
 hero-image: /images/projects/digitaliso/digitaliso.jpg
 images:

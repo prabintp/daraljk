@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Hecht Homes
 project: Flyer Design
-desc:
-  Sales flyer design for Hecht Homes - RE/MAX Real Estate - in Mesa, AZ.
 
 website: http://www.remax.com
 date: 2015-02-25
 tag: print-design
 
 title: Hecht Homes | Flyer Design
-summary: “Just Listed” flyer created for print and web distribution as an advertisement to the sale of a new home listing. Contracted by Security Title Agency in association with Hecht Homes (RE/MAX Real Estate).
+description: “Just Listed” flyer created for print and web distribution as an advertisement to the sale of a new home listing. Contracted by Security Title Agency in association with Hecht Homes (RE/MAX Real Estate).
 
 hero-image: /images/projects/hecht-homes/hecht-sm.jpg
 images:

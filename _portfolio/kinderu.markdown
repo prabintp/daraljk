@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Mesa Public Schools
 project: Brand Creation
-desc:
-  Award-winning brand creation for Mesa Public Schools' KinderU program.
 
 website: http://www.mpsaz.org/kinderu
 date: 2015-02-24
 tag: branding
 
 title: Mesa Public Schools | KinderU Brand Creation
-summary: Identity created in the rebranding and simplification of the Mesa Public Schools Preschool Education Program.  The logo is used in various print and web distributions, and resides on the masthead of the program’s new website.
+description: Identity created in the rebranding and simplification of the Mesa Public Schools Preschool Education Program.  The logo is used in various print and web distributions, and resides on the masthead of the program’s new website.
 
 hero-image: /images/projects/mps-collateral/kinderu.jpg
 images:

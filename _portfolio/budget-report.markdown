@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Mesa Public Schools
 project: Budget Report
-desc:
-  Budget report design for Mesa Public Schools in Mesa, AZ.
 
 website: http://www.mpsaz.org
 date: 2015-04-29
 tag: print-design
 
 title: Mesa Public Schools | Budget Report
-summary: Budget report created for Mesa Public Schools to explain changes in state educational funding and what they mean to employees. Report was printed and distributed to all 9500 employees.
+description: Budget report created for Mesa Public Schools to explain changes in state educational funding and what they mean to employees. Report was printed and distributed to all 9500 employees.
 
 hero-image: /images/projects/mps-collateral/budgetreport2.jpg
 images:

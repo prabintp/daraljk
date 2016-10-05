@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Mesa Public Schools | Community Education
 project: Brand Redesign
-desc:
-  Rebranding initiative for Community Education's Tweens 'N' Teens Connect program.
 
 website: http://www.mpsaz.org/commed
 date: 2014-05-19
 tag: branding
 
 title: Mesa Public Schools | Brand Redesign
-summary: Identity creation for Mesa Public Schools’ Tweens ‘n’ Teens Connect Program.  Utilized in both web and print promotional materials.
+description: Identity creation for Mesa Public Schools’ Tweens ‘n’ Teens Connect Program.  Utilized in both web and print promotional materials.
 
 hero-image: /images/projects/mps-collateral/tnt.jpg
 images:

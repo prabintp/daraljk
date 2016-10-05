@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Jam Connect
 project: App Development
-desc:
-  Open-source web app designed and developed in Meteor.JS
 
 website: https://github.com/DinsmoreDesign/JamConnect
 date: 2016-04-19
 tag: web-development
 
 title: Jam Connect | App Design & Development
-summary: A real-time music forum built on Meteor.JS
+description: An open-source real-time music forum built on Meteor.JS
 
 hero-image: /images/projects/jam-connect/jamconnect.jpg
 ---

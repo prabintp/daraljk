@@ -69,23 +69,23 @@ jQuery(document).foundation();
 
     });
 
-    $('form#contact_form').validate({
-      messages: { },
-      submitHandler: function(form) {
-        $.ajax({
-          type: 'POST',
-          url: 'send.php',
-          data: $(form).serialize(),
-          success: function(data) {
-            if(data.match(/success/)) {
-              $(form).trigger('reset');
-              $('#thanks').show().fadeOut(5000);
-            }
-          }
-        });
-        return false;
-      }
-    });
+    // $('form#contact_form').validate({
+    //   messages: { },
+    //   submitHandler: function(form) {
+    //     $.ajax({
+    //       type: 'POST',
+    //       url: 'send.php',
+    //       data: $(form).serialize(),
+    //       success: function(data) {
+    //         if(data.match(/success/)) {
+    //           $(form).trigger('reset');
+    //           $('#thanks').show().fadeOut(5000);
+    //         }
+    //       }
+    //     });
+    //     return false;
+    //   }
+    // });
 
     if($('.masonry-container').length > 0) {
 
@@ -216,32 +216,32 @@ jQuery(document).foundation();
     }
   })
 })(Tc.$);
-(function($) {
-  Tc.Module.BlogPost = Tc.Module.extend({
-    init: function($ctx, sandbox, modId) {
-      this._super($ctx, sandbox, modId);
-    },
-    dependencies: function() {
-      // this.require('slick.min.js', 'plugin', 'onBinding');
-    },
-    onBinding: function() {
-      var $ctx = this.$ctx;
+// (function($) {
+//   Tc.Module.BlogPost = Tc.Module.extend({
+//     init: function($ctx, sandbox, modId) {
+//       this._super($ctx, sandbox, modId);
+//     },
+//     dependencies: function() {
+//       // this.require('slick.min.js', 'plugin', 'onBinding');
+//     },
+//     onBinding: function() {
+//       var $ctx = this.$ctx;
 
-      if($ctx.find('img, .images').length == 0) {
-        $ctx.addClass('no-media');
-      }
+//       if($ctx.find('img, .images').length == 0) {
+//         $ctx.addClass('no-media');
+//       }
 
-      $('.images', $ctx).slick({
-        autoplay: true,
-        pauseOnHover: false,
-        dots: true,
-        speed: 1500,
-        arrows: false
-      });
+//       $('.images', $ctx).slick({
+//         autoplay: true,
+//         pauseOnHover: false,
+//         dots: true,
+//         speed: 1500,
+//         arrows: false
+//       });
 
-    }
-  })
-})(Tc.$);
+//     }
+//   })
+// })(Tc.$);
 (function($) {
   Tc.Module.BoxedSlider = Tc.Module.extend({
     init: function($ctx, sandbox, modId) {

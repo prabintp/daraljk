@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Mesa Public Schools
 project: Facts Brochure
-desc:
-  Yearly spending brochure for Mesa Public Schools in Mesa, AZ.
 
 website: http://www.mpsaz.org
 date: 2014-04-12
 tag: print-design
 
 title: Mesa Public Schools | Facts Brochure
-summary: Handout created for Mesa Public Schools to display district spending and facts throughout the past school year.
+description: Handout created for Mesa Public Schools to display district spending and facts throughout the past school year.
 
 hero-image: /images/projects/mps-collateral/bythenumbers.jpg
 ---

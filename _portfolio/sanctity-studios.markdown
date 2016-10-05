@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Sanctity Studios
 project: Website Redesign
-desc:
-  Website design & development for Sanctity Studios in Mesa, AZ.
 
 website: http://www.sanctitystudios.com
 date: 2016-01-05
 tag: web-development
 
 title: Sanctity Studios | Website Redesign
-summary: Website redesign for Sanctity Studios, a professional recording studio in Mesa, AZ.  
+description: Website redesign for Sanctity Studios, a professional recording studio in Mesa, AZ.  
 
 hero-image: /images/projects/sanctity-studios/sanctity.jpg
 images:

@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Mesa Public Schools
 project: Brand Redesigns
-desc:
-  Rebranding initiatives for Taft, Keller and Stevenson Elementaries.
 
 website: http://www.mpsaz.org/
 date: 2016-05-04
 tag: branding
 
 title: Mesa Public Schools | Brand Redesigns
-summary: Rebranding initiatives for Taft, Keller and Stevenson Elementaries. Identities were printed in promotional materials and utilized in the design of each school’s new marquee, visible to all passing traffic.
+description: Rebranding initiatives for Taft, Keller and Stevenson Elementaries. Identities were printed in promotional materials and utilized in the design of each school’s new marquee, visible to all passing traffic.
 
 hero-image: /images/projects/mps-collateral/taft-keller-stevenson.jpg
 ---

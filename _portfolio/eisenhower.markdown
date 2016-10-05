@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Eisenhower Center for Innovation
 project: Concept Redesign
-desc:
-  Concept rebranding design for the Eisenhower Center for Innovation.
 
 website: http://www.mpsaz.org/eisenhower
 date: 2014-05-21
 tag: branding
 
 title: Eisenhower Center for Innovation | Concept Redesign
-summary: Concept logo for the rebranding of the Eisenhower Center for Innovation.
+description: Concept identity for the rebranding of the Eisenhower Center for Innovation.
 
 hero-image: /images/projects/mps-collateral/eisenhower.jpg
 ---

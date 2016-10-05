@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: East Valley Academy
 project: Gatefold Brochure 
-desc:
-  Award-winning brochure created for East Valley Academy.
 
 website: http://www.mpsaz.org/eva
 date: 2014-05-19
 tag: print-design
 
 title: East Valley Academy | Gatefold Brochure
-summary: National award-winning brochure created for the East Valley Academy to highlight its unique educational programs for non-traditional learners.
+description: National award-winning brochure created for the East Valley Academy to highlight its unique educational programs for non-traditional learners.
 
 hero-image: /images/projects/mps-collateral/eva2.jpg
 images:

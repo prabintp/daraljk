@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Altitude Productions
 project: Website Design
-desc:
-  Website designed and developed for Altitude Productions in Minneapolis, MN.
 
 website: http://www.altitudeproductionstudio.com
 date: 2015-08-10
 tag: web-development
 
 title: Altitude Productions | Website Design
-summary: Website designed for Altitude Productions in Minnesota for display as a marketing tool to gain business and display their previous work.
+description: Website designed for Altitude Productions in Minnesota for display as a marketing tool to gain business and display their previous work.
 
 hero-image: /images/projects/altitude-productions/altitude-realistic.jpg
 images:

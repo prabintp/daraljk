@@ -3,8 +3,6 @@ layout: portfolio-item
 
 client: Color Room Films
 project: Website Redesign
-desc:
-  Website designed and developed for Color Room Films in Jackson, NJ.
 
 website: http://www.colorroomfilms.com
 date: 2016-06-23
@@ -13,7 +11,7 @@ tag: web-development
 title: Color Room Films | Website Redesign
 
 hero-image: /images/projects/color-room-films/colorroom.jpg
-summary: Website designed for Color Room Films in Jackson, NJ to use as a landing page for potential clients and a portfolio of recent work.
+description: Website designed for Color Room Films in Jackson, NJ to use as a landing page for potential clients and a portfolio of recent work.
 
 images:
   - url: /images/projects/color-room-films/home.jpg

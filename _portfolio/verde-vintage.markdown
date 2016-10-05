@@ -3,8 +3,6 @@ layout: portfolio-item
 
 client: Verde Vintage & Thrift, Inc.
 project: Identity Creation & Website Redesign
-desc:
-  Branding creation, website design & development for Verde Vintage & Thrift in Mesa, AZ.
 
 website: http://www.verdevintageaz.com
 date: 2014-08-15
@@ -13,7 +11,7 @@ tag: web-development branding
 title: Verde Vintage & Thrift, Inc. | Identity Creation & Website Redesign
 
 hero-image: /images/projects/verde-vintage/verde.jpg
-summary: Rebranding and website redesign for Verde Vintage & Thrift, Inc. to meld vintage flair with modern style.
+description: Rebranding and website redesign for Verde Vintage & Thrift, Inc. to meld vintage flair with modern style.
 
 images:
   - url: /images/projects/verde-vintage/verde-logo.jpg

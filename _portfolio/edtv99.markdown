@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: EdTV 99
 project: Concept Redesign
-desc:
-  Concept rebranding design for EdTV99.
 
 website: http://www.edtv99.org/
 date: 2014-05-12
 tag: branding
 
 title: EdTV 99 | Concept Redesign
-summary: Concept logo created for EdTV 99 for display as a watermark on their television channel and all created videos.
+description: Concept identity created for EdTV 99 for display as a watermark on their television channel and all created videos.
 
 hero-image: /images/projects/mps-collateral/edtv.jpg
 ---

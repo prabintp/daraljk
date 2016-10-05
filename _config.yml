@@ -8,14 +8,25 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 facebook_username: ddinsmoredesign
 facebook_url: https://www.facebook.com/ddinsmoredesign
-twitter_username: 
-twitter_url: 
+twitter_username: dinsmoredesign
+twitter_url: https://twitter.com/dinsmoredesign
 instagram_username: 
 instagram_url: 
 dribble_username: 
 dribble_url: 
 github_username: DinsmoreDesign
 github_url: https://github.com/DinsmoreDesign
+
+# SEO Stuff:
+
+facebook:
+  app_id: 555404704576320
+  publisher: 555404704576320
+  admins: 555404704576320
+logo: /images/logo.svg
+google_site_verification: Je_N8gBJkCkgNH7CGBcP1Lx8GebKzVdXVQWx-KjgkmY
+author:
+  twitter: dinsmoredesign
 
 # Build settings
 markdown: kramdown

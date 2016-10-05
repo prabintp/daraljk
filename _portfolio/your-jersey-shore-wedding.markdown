@@ -3,15 +3,13 @@ layout: portfolio-item
 
 client: Your Jersey Shore Wedding
 project: Identity Creation
-desc:
-  Branding creation for Your Jersey Shore Wedding in Jackson, NJ.
 
 website: http://yourjerseyshorewedding.com
 date: 2016-05-04
 tag: branding
 
 title: Your Jersey Shore Wedding | Identity Creation
-summary: Identity created for New Jersey wedding film and photography company, Your Jersey Shore Wedding. Logo is live on the company’s website and is used in several promotional materials.
+description: Identity created for New Jersey wedding film and photography company, Your Jersey Shore Wedding. Logo is live on the company’s website and is used in several promotional materials.
 
 hero-image: /images/projects/yjsw/yjsw.jpg
 images:
