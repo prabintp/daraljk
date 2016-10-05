@@ -6,25 +6,25 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Oct 2016 13:29:30 -0700</pubDate>
-    <lastBuildDate>Wed, 05 Oct 2016 13:29:30 -0700</lastBuildDate>
+    <pubDate>Wed, 05 Oct 2016 14:01:38 -0700</pubDate>
+    <lastBuildDate>Wed, 05 Oct 2016 14:01:38 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>3 Resources for Beginning Web Developers</title>
-        <description>&lt;p&gt;Learning web development can be hard. There’s so many different technologies out there that it’s &lt;em&gt;really&lt;/em&gt; hard to figure out what you should be learning. Whether you’re just learning for fun, or want to make a career out of it, these resources will help you get a jump-start on your learning:&lt;/p&gt;
+        <description>&lt;p&gt;Learning web development can be hard. There are so many different technologies out there that it’s &lt;em&gt;really&lt;/em&gt; hard to figure out what you should be learning. Whether you’re just learning for fun, or want to make a career out of it, these resources will help you get a jump-start on your learning:&lt;/p&gt;
 
 &lt;h4 id=&quot;codecademyhttpswwwcodecademycom-visit-codecademys-website&quot;&gt;&lt;a href=&quot;https://www.codecademy.com/&quot; title=&quot;Visit Codecademy's Website&quot;&gt;1. Codecademy&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/codecademy.jpg&quot; alt=&quot;Codecademy&quot; title=&quot;Codecademy&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Codecademy is an interactive website that lets you learn all kinds of programming languages. Its guided tutorials are great for teaching the basics skills to help you be productive quickly.&lt;/p&gt;
+&lt;p&gt;Codecademy is an interactive website that lets you learn all kinds of programming languages. The site’s guided tutorials are great for teaching the basics skills to help you be productive quickly.&lt;/p&gt;
 
 &lt;p&gt;With the site’s recent redesign and all the new courses, Codecademy is a force to be reckoned with in the online-learning spectrum. However, while Codecademy is mostly free, they recently released a paid, “Pro,” version which allows you to get guidance from advisors and a specialized learning plan with projects that aren’t available to unpaid customers.&lt;/p&gt;
 
 &lt;p&gt;Normally, I wouldn’t be bothered by the upgraded version of their service, since they still allow you to use the basic features for free, but most of their new course offerings only give you a small subset of knowledge on the subjects. They require that you pay to learn the portions you most likely wanted to learn in the first place. Courses like their AngularJS 1.X class only gives you about 25% of the total course, for example.&lt;/p&gt;
 
-&lt;p&gt;I haven’t had a chance to try out there paid service yet, but their courses in JavaScript, HTML &amp;amp; CSS, Git and others are invaluable to beginning developers, as they allow you to instantly become confident in your skills, by showing you your results right there on the screen. I’d definitely recommend Codecademy to anyone starting out a complete beginner level, or even if you’re an experienced dev and just want to get your feet wet in a new technology without reading extensive documentation.&lt;/p&gt;
+&lt;p&gt;I haven’t had a chance to try out their paid service yet, but their courses in JavaScript, HTML &amp;amp; CSS, Git and others are invaluable to beginning developers, as they allow you to instantly become confident in your skills, by showing you your results right there on the screen. I’d definitely recommend Codecademy to anyone starting out a complete beginner level, or even if you’re an experienced dev and just want to get your feet wet in a new technology without reading extensive documentation.&lt;/p&gt;
 
 &lt;h4 id=&quot;css-trickshttpscss-trickscom-visit-css-trickss-website&quot;&gt;&lt;a href=&quot;https://css-tricks.com/&quot; title=&quot;Visit CSS-Tricks's Website&quot;&gt;2. CSS-Tricks&lt;/a&gt;&lt;/h4&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;p&gt;CSS-Tricks is a great resource as a repository for front-end development tips and much more around the web. Subscribing to their blog gives you daily ideas to implement in your website designs.&lt;/p&gt;
 
-&lt;p&gt;While I don’t specifically use CSS-Tricks as a learning resource, there’s very few instances where I’m trying to figure out a UI component to implement, where I can’t load up their website and find exactly what I needed. The site is amazing for use as a reference to more experienced devs who are looking for more specific knowledge on certain things.&lt;/p&gt;
+&lt;p&gt;While I don’t specifically use CSS-Tricks as a learning resource, there are very few instances where I’m trying to figure out a UI component to implement, where I can’t load up their website and find exactly what I needed. The site is amazing for use as a reference to more experienced devs who are looking for more specific knowledge on certain things.&lt;/p&gt;
 
 &lt;p&gt;However, they do have a really extensive listing of videos on the site that go through some really interesting topics, like building games with JavaScript, SVG animations and Photoshop design.&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/posts/fcc.jpg&quot; alt=&quot;FreeCodeCamp&quot; title=&quot;FreeCodeCamp&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you have the discipline to stick to it, FreeCodeCamp’s curriculum will get you from zero to professional utilizing the latest JavaScript technologies. You’ll learn front-end and full-stack development with Node.JS and React.JS, plus essential algorithm skills. Not only that, but by the time you’ve completed the curriculum, you’ll have a plethora of projects to show off to employers to get you the job.&lt;/p&gt;
+&lt;p&gt;If you have the discipline to stick to it, FreeCodeCamp’s curriculum will get you from zero to professional utilizing the latest JavaScript technologies. You’ll learn front-end and full-stack development with Node.JS and React.JS, plus essential algorithm skills. Not only that but by the time you’ve completed the curriculum, you’ll have a plethora of projects to show off to employers to get you the job.&lt;/p&gt;
 
 &lt;p&gt;FCC’s business model is very novel, in fact. Their ultimate purpose is to give you the skills you need to be successful and then get you in contact with non-profit organizations to develop your portfolio.&lt;/p&gt;
 
@@ -67,7 +67,7 @@
         <title>5 Tips for Beginning Designers</title>
         <description>&lt;p&gt;&lt;em&gt;For several years, I’ve maintained this website as a digital timeline of my favorite work. I’ve used it to showcase my work to potential clients, but most importantly, I’ve used it to document the purpose of each project and my development as a designer. As someone who’s worked for an educational institution for most of my professional career, teaching things has always been a passion and it’s my hope that with this post, and the ones to follow, I can help up-and-coming designers be the best they can be. So, let’s get into it…&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I want to touch on the subject of education, and by that I mean, &lt;strong&gt;your&lt;/strong&gt; education as a designer.&lt;/p&gt;
+&lt;p&gt;I want to touch on the subject of education, and by that, I mean, &lt;strong&gt;your&lt;/strong&gt; education as a designer.&lt;/p&gt;
 
 &lt;p&gt;If you enjoy math or, at least, paid a little attention during geometry, let me lay it out for you in a way you might be able to understand. Remember how all squares are rectangles, but not all rectangles are squares? Graphic design is the opposite:&lt;/p&gt;
 
@@ -85,9 +85,9 @@
 
 &lt;p&gt;Adobe pretty much has the lock on the design world. While there are certainly other programs out there worth learning, it will be expected of you to be able to work in the Adobe ecosystem at any job you’re likely to find. As a designer who started out heavily focused on print, it’s a pet peeve of mine when I see people using the wrong programs for certain things. As a manager at a creative firm, I would be very weary of your skills and knowledge if I saw you utilizing these programs inappropriately. Each Adobe product is tailored toward a certain thing it’s meant to do well and its workflow is built around these things. By utilizing something different, you’re wasting time and potentially making decisions that can’t be changed later.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Photoshop&lt;/strong&gt;‘s strengths lie in photo editing and digital art. While you can do layout design in it, it’s not built to deal with vectors, typography and multiple resolutions like others are. Use this program to make adjustments to your photos, backgrounds, etc. that you’d import into a layout design program. The only instance where I’d consider using Photoshop as a layout tool would be for web graphics, but even then, I feel like there are better ways to go about it. I would not suggest building logos in Photoshop as you’re mostly dealing with raster images that won’t upscale well – sure, you can make the initial file huge, but that just takes up more space on your hard drive than is needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Photoshop&lt;/strong&gt;‘s strengths lie in photo editing and digital art. While you can do layout design in it, it’s not built to deal with vectors, typography, and multiple resolutions like others are. Use this program to make adjustments to your photos, backgrounds, etc. that you’d import into a layout design program. The only instance where I’d consider using Photoshop as a layout tool would be for web graphics, but even then, I feel like there are better ways to go about it. I would not suggest building logos in Photoshop as you’re mostly dealing with raster images that won’t upscale well – sure, you can make the initial file huge, but that just takes up more space on your hard drive than is needed.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Illustrator&lt;/strong&gt; is for vector graphics. This is where you want to build logos and any graphic you want to be able to scale nicely across many resolutions and sizes. Illustrator isn’t as easy to work with when it comes to photorealism as Photoshop is, but that’s not really the purpose of the program, either. Graphics should be simple and easy to understand and Illustrator has the most precise tools to help you create fluid and crisp lines and exact breakpoints. While I’ve used it to do some really intricate work, it’s not something I’d really suggest you master, as you could likely do it quicker somewhere else.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Illustrator&lt;/strong&gt; is for vector graphics. This is where you want to build logos and any graphic you want to be able to scale nicely across many resolutions and sizes. Illustrator isn’t as easy to work with when it comes to photorealism as Photoshop is, but that’s not really the purpose of the program, either. Graphics should be simple and easy to understand and Illustrator has the most precise tools to help you create a fluid and crisp line plus exact breakpoints. While I’ve used it to do some really intricate work, it’s not something I’d really suggest you, master, as you could likely do it quicker somewhere else.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;InDesign&lt;/strong&gt; is for layout. If you’re planning on being a graphic designer and don’t know InDesign, forget what you’re doing in Photoshop and drop what you’re doing in Illustrator. You &lt;em&gt;need&lt;/em&gt; to learn InDesign. Just the other day, I ran into a website that had some really cool, creative, resume templates but as I investigated more, I realized that every single one of them was made in Photoshop. Why?? You’re doing way too much work! The layouts they’d created in Photoshop, undoubtedly, took them hours to create because Photoshop’s workflow isn’t tailored for layout, it’s tailored for photo editing. The same exact work would’ve taken a matter of minutes to create in InDesign and if the size of the page needed to be changed, it could be done within a matter of seconds, without pixelating any of the elements. As a designer (especially one who specializes in print), you will live in InDesign. Learn it well. Learn it deeply. Embrace it and learn to love it.&lt;/p&gt;
 
@@ -99,7 +99,7 @@
 
 &lt;p&gt;People in the industry throw around the terms PPI and DPI so much that you’re going to think they have no idea what they’re talking about. DPI refers to the dots per inch of a printer, PPI refers to the pixels per inch of an image. Most of the time, when someone tells you they need a 300 DPI image, they really mean PPI. It’s confusing, I know. &lt;strong&gt;Pro-tip&lt;/strong&gt;: If you don’t know what the printer is talking about, ask! They’ll be glad you did and it’ll save you extra work in the future. In fact, I always ask a new printer for their print specifications before I even start building something, it just makes things easier. Heck, you might even learn a thing or two that you’ll be glad you knew later down the road.&lt;/p&gt;
 
-&lt;p&gt;Learn about bleeds and why it might be okay to use them for web, but might end up costing you more in print. Sure, it might look great for your colors to run all the way to the edge of a piece of paper, but it’s also more expensive (you’ll have to pay for 11×17″ pages, only to receive an 8.5×11″ once it’s cut down). Know your customer and know their budget, if you can save them some money by doing something differently, they’re going to love you for it.&lt;/p&gt;
+&lt;p&gt;Learn about bleeds and why it might be okay to use them for the web, but might end up costing you more in print. Sure, it might look great for your colors to run all the way to the edge of a piece of paper, but it’s also more expensive (you’ll have to pay for 11×17″ pages, only to receive an 8.5×11″ once it’s cut down). Know your customer and know their budget, if you can save them some money by doing something differently, they’re going to love you for it.&lt;/p&gt;
 
 &lt;p&gt;Learn about the printing process itself. While certain colors may display great on the web, you might have to adjust them for print because of the way it works and vice versa. Smaller type might also be easier to read on a printed piece of paper while being impossible to read on the web. If you’ll be designing shirts or other apparel, check to see if it’s being screen printed, if it is – there’s a lot of things you can’t do because of the limitations of the process and the number of colors you can use. Your exciting design might end up being flat and boring; knowing your limitations from the start will help you design something great from the get-go, rather than altering it later.&lt;/p&gt;
 
@@ -151,7 +151,7 @@
 
 &lt;p&gt;&lt;strong&gt;Don’t expect to get paid much as a graphic designer&lt;/strong&gt;, at least in the beginning. While it’s a very important part of marketing, few companies seem to really understand the value of a good designer; don’t be surprised if you’re making less than $15 an hour at first. There are high paying jobs out there, but they are very competitive because these companies know they’re going to have the pick of the litter.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Graphic design&lt;/em&gt; has become a very broad term over the years. Today’s graduates should be expected to learn HTML, CSS and, at least, a little JavaScript. &lt;em&gt;Graphic design&lt;/em&gt; jobs with web duties may not expect you to build entire webpages from the ground up, but if you, at least, have a good understanding of how to take your design from your mockup to a live landing page, you’re going to get a lot more interviews. Soon, &lt;em&gt;the front-end developer will be the new graphic designer&lt;/em&gt; and the quicker you embrace this, the better. Hey, it also helps that you’ll make a lot more money off the bat, right?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Graphic design&lt;/em&gt; has become a very broad term over the years. Today’s graduates should be expected to learn HTML, CSS and, at least, a little JavaScript. &lt;em&gt;Graphic design&lt;/em&gt; jobs with web duties may not expect you to build entire web pages from the ground up, but if you, at least, have a good understanding of how to take your design from your mockup to a live landing page, you’re going to get a lot more interviews. Soon, &lt;em&gt;the front-end developer will be the new graphic designer&lt;/em&gt; and the quicker you embrace this, the better. Hey, it also helps that you’ll make a lot more money off the bat, right?&lt;/p&gt;
 
 &lt;p&gt;Not excited about your program’s approach to learning to code? &lt;a href=&quot;http://codecademy.com&quot;&gt;Codecademy&lt;/a&gt; is a great place to start. It’s interactive and they actually teach you skills that are useful in the industry.&lt;/p&gt;
 
