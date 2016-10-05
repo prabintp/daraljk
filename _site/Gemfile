@@ -26,4 +26,5 @@ gem "jekyll", "3.2.1"
 gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
-gem 'jekyll-paginate'
+gem 'jekyll-minibundle'
+# gem 'jekyll-paginate'

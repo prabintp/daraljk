@@ -16,7 +16,7 @@ GEM
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
     jekyll-feed (0.7.0)
-    jekyll-paginate (1.1.0)
+    jekyll-minibundle (2.1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-seo-tag (2.0.0)
@@ -46,7 +46,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.2.1)
   jekyll-feed
-  jekyll-paginate
+  jekyll-minibundle
   jekyll-seo-tag
   jekyll-sitemap
 
