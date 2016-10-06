@@ -42,7 +42,7 @@ minibundle:
     js: uglifyjs -
 
 gems:
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll/minibundle
