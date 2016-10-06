@@ -12,6 +12,7 @@ title: DigitalISO | Identity Creation
 description: Identity created for Arizona web development startup, DigitalISO, for use on business cards, letterhead, web banners and other advertisement materials and collateral.
 
 hero-image: /images/projects/digitaliso/digitaliso.jpg
+thumbnail: /images/projects/thumbs/digitaliso.jpg
 images:
   - url: /images/projects/digitaliso/digitaliso-palette.jpg
     caption: Marks with color palette

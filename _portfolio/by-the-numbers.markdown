@@ -12,6 +12,7 @@ title: Mesa Public Schools | Facts Brochure
 description: Handout created for Mesa Public Schools to display district spending and facts throughout the past school year.
 
 hero-image: /images/projects/mps-collateral/bythenumbers.jpg
+thumbnail: /images/projects/thumbs/bythenumbers.jpg
 ---
 
 **Mission:**

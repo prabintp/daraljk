@@ -12,6 +12,7 @@ title: Mesa Public Schools | Achieve Magazine
 description: Selected page spreads designed for various issues of Mesa Public Schools’ Achieve Magazine, a semi-annual publication distributed directly to all homes in Mesa in partnership with Republic Media.
 
 hero-image: /images/projects/mps-collateral/achieve1.jpg
+thumbnail: /images/projects/thumbs/achieve1.jpg
 images:
   - url: /images/projects/mps-collateral/achieve2.jpg
     caption: Offerings & Outcomes and ECA State Tax Credit Designs

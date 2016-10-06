@@ -12,6 +12,7 @@ title: Mesa Public Schools | Brand Redesigns
 description: Rebranding initiatives for Taft, Keller and Stevenson Elementaries. Identities were printed in promotional materials and utilized in the design of each school’s new marquee, visible to all passing traffic.
 
 hero-image: /images/projects/mps-collateral/taft-keller-stevenson.jpg
+thumbnail: /images/projects/thumbs/taft-keller-stevenson.jpg
 ---
 
 **Mission:**

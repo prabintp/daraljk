@@ -9,10 +9,10 @@ date: 2014-08-15
 tag: web-development branding
 
 title: Verde Vintage & Thrift, Inc. | Identity Creation & Website Redesign
-
-hero-image: /images/projects/verde-vintage/verde.jpg
 description: Rebranding and website redesign for Verde Vintage & Thrift, Inc. to meld vintage flair with modern style.
 
+hero-image: /images/projects/verde-vintage/verde.jpg
+thumbnail: /images/projects/thumbs/verde.jpg
 images:
   - url: /images/projects/verde-vintage/verde-logo.jpg
     caption: Verde Vintage & Thrift Logo

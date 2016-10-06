@@ -12,6 +12,7 @@ title: Studio 22 Images | Identity Creation
 description: Identity created for Arizona photography studio, Studio 22 Images, for use on business cards, letterhead, web banners and other advertisement materials and collateral.
 
 hero-image: /images/projects/studio-22-images/studio22-styleguide.jpg
+thumbnail: /images/projects/thumbs/studio22-styleguide.jpg
 ---
 
 **Mission:**

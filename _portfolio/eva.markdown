@@ -12,6 +12,7 @@ title: East Valley Academy | Gatefold Brochure
 description: National award-winning brochure created for the East Valley Academy to highlight its unique educational programs for non-traditional learners.
 
 hero-image: /images/projects/mps-collateral/eva2.jpg
+thumbnail: /images/projects/thumbs/eva2.jpg
 images:
   - url: /images/projects/mps-collateral/eva1.jpg
     caption: Full design

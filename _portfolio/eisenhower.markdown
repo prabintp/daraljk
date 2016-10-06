@@ -12,6 +12,7 @@ title: Eisenhower Center for Innovation | Concept Redesign
 description: Concept identity for the rebranding of the Eisenhower Center for Innovation.
 
 hero-image: /images/projects/mps-collateral/eisenhower.jpg
+thumbnail: /images/projects/thumbs/eisenhower.jpg
 ---
 
 **Mission:**

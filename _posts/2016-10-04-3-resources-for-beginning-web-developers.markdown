@@ -6,6 +6,7 @@ title:  3 Resources for Beginning Web Developers
 date:   2016-10-4
 
 image: /images/posts/dev-title.jpg
+thumbnail: /images/posts/thumbs/dev-title.jpg
 alt: Code on computer screen
 
 excerpt:

@@ -12,6 +12,7 @@ title: Your Jersey Shore Wedding | Identity Creation
 description: Identity created for New Jersey wedding film and photography company, Your Jersey Shore Wedding. Logo is live on the company’s website and is used in several promotional materials.
 
 hero-image: /images/projects/yjsw/yjsw.jpg
+thumbnail: /images/projects/thumbs/yjsw.jpg
 images:
   - url: /images/projects/yjsw/yjsw-mark.jpg
     caption: Logo in brand's primary color

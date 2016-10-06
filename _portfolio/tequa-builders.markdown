@@ -12,6 +12,7 @@ title: Tequa Builders | Website Redesign
 description: Website redesigned for Tequa Builders, LLC. for display as a marketing tool. Website was built on the Bootstrap framework utilizing parallax scrolling and custom CSS/PHP/Jquery libraries.
 
 hero-image: /images/projects/tequa-builders/tequa.jpg
+thumbnail: /images/projects/thumbs/tequa.jpg
 images:
   - url: /images/projects/tequa-builders/tequa-original.jpg
     caption: Old WordPress design

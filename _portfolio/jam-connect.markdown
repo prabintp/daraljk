@@ -12,6 +12,7 @@ title: Jam Connect | App Design & Development
 description: An open-source real-time music forum built on Meteor.JS
 
 hero-image: /images/projects/jam-connect/jamconnect.jpg
+thumbnail: /images/projects/thumbs/jamconnect.jpg
 ---
 
 **Mission:**

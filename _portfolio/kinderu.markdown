@@ -12,6 +12,7 @@ title: Mesa Public Schools | KinderU Brand Creation
 description: Identity created in the rebranding and simplification of the Mesa Public Schools Preschool Education Program.  The logo is used in various print and web distributions, and resides on the masthead of the program’s new website.
 
 hero-image: /images/projects/mps-collateral/kinderu.jpg
+thumbnail: /images/projects/thumbs/kinderu.jpg
 images:
   - url: /images/projects/mps-collateral/kinderu-busad.jpg
     caption: KinderU banner ad on an MPS bus.

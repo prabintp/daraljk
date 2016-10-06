@@ -12,6 +12,7 @@ title: Mesa Public Schools | Budget Report
 description: Budget report created for Mesa Public Schools to explain changes in state educational funding and what they mean to employees. Report was printed and distributed to all 9500 employees.
 
 hero-image: /images/projects/mps-collateral/budgetreport2.jpg
+thumbnail: /images/projects/thumbs/budgetreport2.jpg
 images:
   - url: /images/projects/mps-collateral/budgetreport1.jpg
     caption: Outer fold of budget report

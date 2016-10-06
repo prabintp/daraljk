@@ -12,6 +12,7 @@ title: Altitude Productions | Website Design
 description: Website designed for Altitude Productions in Minnesota for display as a marketing tool to gain business and display their previous work.
 
 hero-image: /images/projects/altitude-productions/altitude-realistic.jpg
+thumbnail: /images/projects/thumbs/altitude-realistic.jpg
 images:
   - url: /images/projects/altitude-productions/altitude-responsive.jpg
     caption: Responsive Pages Example #1

@@ -6,6 +6,7 @@ title:  5 Tips for Beginning Designers
 date:   2016-09-16
 
 image: /images/posts/design-title.jpg
+thumbnail: /images/posts/thumbs/design-title.jpg
 alt: Sketch of building
 
 excerpt:

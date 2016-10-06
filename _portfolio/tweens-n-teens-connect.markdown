@@ -12,6 +12,7 @@ title: Mesa Public Schools | Brand Redesign
 description: Identity creation for Mesa Public Schools’ Tweens ‘n’ Teens Connect Program.  Utilized in both web and print promotional materials.
 
 hero-image: /images/projects/mps-collateral/tnt.jpg
+thumbnail: /images/projects/thumbs/tnt.jpg
 images:
   - url: /images/projects/mps-collateral/tnt-multi.jpg
     caption: Primary color designs for TNT logo

@@ -12,6 +12,7 @@ title: EdTV 99 | Concept Redesign
 description: Concept identity created for EdTV 99 for display as a watermark on their television channel and all created videos.
 
 hero-image: /images/projects/mps-collateral/edtv.jpg
+thumbnail: /images/projects/thumbs/edtv.jpg
 ---
 
 **Mission:**

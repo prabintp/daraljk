@@ -12,6 +12,7 @@ title: Sanctity Studios | Website Redesign
 description: Website redesign for Sanctity Studios, a professional recording studio in Mesa, AZ.  
 
 hero-image: /images/projects/sanctity-studios/sanctity.jpg
+thumbnail: /images/projects/thumbs/sanctity.jpg
 images:
   - url: /images/projects/sanctity-studios/sanctity-onepage.jpg
     caption: Website one-page redesign

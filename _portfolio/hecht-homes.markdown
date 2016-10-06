@@ -12,6 +12,7 @@ title: Hecht Homes | Flyer Design
 description: “Just Listed” flyer created for print and web distribution as an advertisement to the sale of a new home listing. Contracted by Security Title Agency in association with Hecht Homes (RE/MAX Real Estate).
 
 hero-image: /images/projects/hecht-homes/hecht-sm.jpg
+thumbnail: /images/projects/thumbs/hecht-sm.jpg
 images:
   - url: /images/projects/hecht-homes/hecht-large.jpg
     caption: Flyer design
