@@ -47,6 +47,8 @@ callout_desc:
   </div>
 </div>
 
+{{page.id}}
+
 <div id="home-callout" class='full' style='padding: 140px 0 120px 0;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -82,13 +84,13 @@ callout_desc:
   <ul class='gallery'>
     {% assign items = site.portfolio | sort: 'date' | reverse %}
     {% for item in items limit: 8 %}
-      <li class='{{item.tag}}'>
+      <li>
         <a href='{{item.url}}'>
           <img alt="{{item.title}}" src="{{item.hero-image}}" />
           <div class='overlay'>
             <div class='thumb-info'>
               <h3>{{item.project}}</h3>
-              <p>{{item.desc}}</p>
+              <p>{{item.description | truncate: 140, '... [Read More]'}}</p>
             </div>
           </div>
         </a>

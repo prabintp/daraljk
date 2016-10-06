@@ -39,7 +39,7 @@ custom_js:
           <div class='overlay'>
             <div class='thumb-info'>
               <h3>{{item.project}}</h3>
-              <p>{{item.description}}</p>
+              <p>{{item.description | truncate: 140, '... [Read More]'}}</p>
             </div>
           </div>
         </a>
