@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>dinsmoredesign.com/design/2016/10/04/3-resources-for-beginning-web-developers/</loc>
+      <loc>https://dinsmoredesign.com/design/2016/10/04/3-resources-for-beginning-web-developers/</loc>
       
         <lastmod>2016-10-04T00:00:00-07:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>dinsmoredesign.com/design/2016/09/16/5-tips-for-beginning-designers/</loc>
+      <loc>https://dinsmoredesign.com/design/2016/09/16/5-tips-for-beginning-designers/</loc>
       
         <lastmod>2016-09-16T00:00:00-07:00</lastmod>
       
@@ -34,24 +34,9 @@
   
     
     <url>
-      <loc>dinsmoredesign.com/about/</loc>
+      <loc>https://dinsmoredesign.com/about/</loc>
       
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>dinsmoredesign.com/blog/</loc>
-      
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,24 +49,9 @@
   
     
     <url>
-      <loc>dinsmoredesign.com/contact/</loc>
+      <loc>https://dinsmoredesign.com/blog/</loc>
       
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>dinsmoredesign.com/feed.xml</loc>
-      
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -94,24 +64,9 @@
   
     
     <url>
-      <loc>dinsmoredesign.com/css/foundation.css</loc>
+      <loc>https://dinsmoredesign.com/contact/</loc>
       
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>dinsmoredesign.com/</loc>
-      
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,41 +79,9 @@
   
     
     <url>
-      <loc>dinsmoredesign.com/portfolio/</loc>
+      <loc>https://dinsmoredesign.com/feed.xml</loc>
       
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>dinsmoredesign.com/services/</loc>
-      
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>dinsmoredesign.com/contact/thanks</loc>
-      
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,9 +94,86 @@
   
     
     <url>
-      <loc>dinsmoredesign.com/feed.xslt.xml</loc>
+      <loc>https://dinsmoredesign.com/css/foundation.css</loc>
       
-        <lastmod>2016-10-06T15:54:32-07:00</lastmod>
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://dinsmoredesign.com/</loc>
+      
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://dinsmoredesign.com/portfolio/</loc>
+      
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://dinsmoredesign.com/services/</loc>
+      
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>https://dinsmoredesign.com/contact/thanks</loc>
+      
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://dinsmoredesign.com/feed.xslt.xml</loc>
+      
+        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
