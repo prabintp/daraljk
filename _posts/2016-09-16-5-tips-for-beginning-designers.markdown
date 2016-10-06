@@ -40,7 +40,7 @@ What I mean to say is, there are some designers who make art and there are other
 So what should you do?
 
 
-![Adobe Creative Cloud Icons](/images/posts/adobe.png "Adobe Creative Cloud Icons")
+![Adobe Creative Cloud Icons](/images/posts/adobe.jpg "Adobe Creative Cloud Icons")
 
 
 #### 1. **Learn the appropriate tools of the trade.** Work smart and you’ll get things done quicker. ####
@@ -54,7 +54,7 @@ Adobe pretty much has the lock on the design world. While there are certainly ot
 **InDesign** is for layout. If you’re planning on being a graphic designer and don’t know InDesign, forget what you’re doing in Photoshop and drop what you’re doing in Illustrator. You *need* to learn InDesign. Just the other day, I ran into a website that had some really cool, creative, resume templates but as I investigated more, I realized that every single one of them was made in Photoshop. Why?? You’re doing way too much work! The layouts they’d created in Photoshop, undoubtedly, took them hours to create because Photoshop’s workflow isn’t tailored for layout, it’s tailored for photo editing. The same exact work would’ve taken a matter of minutes to create in InDesign and if the size of the page needed to be changed, it could be done within a matter of seconds, without pixelating any of the elements. As a designer (especially one who specializes in print), you will live in InDesign. Learn it well. Learn it deeply. Embrace it and learn to love it.
 
 
-![DigitalISO Logos](/images/posts/digitaliso.png "DigitalISO Logos")
+![DigitalISO Logos](/images/posts/digitaliso.jpg "DigitalISO Logos")
 
 
 #### 2. Learn the difference between designing for print and designing for the web. ####
@@ -106,7 +106,7 @@ While I’m sure these parents are still going to read the information because t
 >Design is not always about making things look pretty. Effective design is characterized by the attributes that maximize functionality and make things easy to understand. **Good design that will stand the test of time is, at its core, simple.**
 
  
-![Screenshot of Code on Screen](/images/posts/code.png "Screenshot of Code on Screen")
+![Screenshot of Code on Screen](/images/posts/code.jpg "Screenshot of Code on Screen")
 
 
 #### An Aside: Learn to code. ####
