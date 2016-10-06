@@ -2366,19 +2366,19 @@
       if (!this.rtl) {
         target.css({
           marginLeft : 0,
-          marginTop : 40
+          marginTop : 0
         });
 
         if (label.length > 0) {
           label.css({
             marginLeft : 0,
-            marginTop : 40
+            marginTop : 0
           });
         }
       } else {
         target.css({
           marginRight : 0,
-          marginTop : 40,
+          marginTop : 0,
           left: 'auto',
           right: '50%'
         });
@@ -2386,7 +2386,7 @@
         if (label.length > 0) {
           label.css({
             marginRight : 0,
-            marginTop : 40,
+            marginTop : 0,
             left: 'auto',
             right: '50%'
           });
