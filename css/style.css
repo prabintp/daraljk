@@ -605,6 +605,7 @@ form input.error, form textarea.error {
   padding-right: 30px;
   text-align: center;
   font-size: 1.4rem;
+  margin-bottom: 0;
 }
 #footer.fullwidth ul.socials {
   text-align: right;

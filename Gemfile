@@ -23,8 +23,8 @@ gem "jekyll", "3.2.1"
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 
-gem 'jekyll-sitemap'
 gem 'jekyll-seo-tag'
-gem 'jekyll-feed'
 gem 'jekyll-minibundle'
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
 # gem 'jekyll-paginate'

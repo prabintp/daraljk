@@ -1,187 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/design/2016/10/04/3-resources-for-beginning-web-developers/</loc>
-      
-        <lastmod>2016-10-04T00:00:00-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/design/2016/09/16/5-tips-for-beginning-designers/</loc>
-      
-        <lastmod>2016-09-16T00:00:00-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/about/</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/blog/</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/contact/</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/feed.xml</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/css/foundation.css</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/portfolio/</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/services/</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/contact/thanks</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://dinsmoredesign.com/feed.xslt.xml</loc>
-      
-        <lastmod>2016-10-06T15:56:26-07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://dinsmoredesign.com/design/2016/10/04/3-resources-for-beginning-web-developers/</loc>
+<lastmod>2016-10-04T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/design/2016/09/16/5-tips-for-beginning-designers/</loc>
+<lastmod>2016-09-16T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/about/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/blog/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/contact/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/services/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/contact/thanks</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/by-the-numbers/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/edtv99/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/eva/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/tweens-n-teens-connect/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/eisenhower/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/verde-vintage/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/kinderu/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/hecht-homes/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/budget-report/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/altitude-productions/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/tequa-builders/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/achieve-pages/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/sanctity-studios/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/jam-connect/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/digitaliso/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/school-logos/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/your-jersey-shore-wedding/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/color-room-films/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/portfolio/studio-22-images/</loc>
+</url>
 </urlset>
