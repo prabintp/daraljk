@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: /blog/:title
 
 title:  3 Resources for Beginning Web Developers
 date:   2016-10-4

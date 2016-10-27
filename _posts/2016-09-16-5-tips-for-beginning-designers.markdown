@@ -1,6 +1,7 @@
 ---
 layout: post
 comments: true
+permalink: /blog/:title
 
 title:  5 Tips for Beginning Designers
 date:   2016-09-16
