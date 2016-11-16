@@ -14,6 +14,10 @@
 }
 
 /*some basic settings */
+p {
+  font-size: 1.2rem;
+  color: #777;
+}
 a {
   color: #F9CE06;
   -moz-transition-duration: 0.3s;

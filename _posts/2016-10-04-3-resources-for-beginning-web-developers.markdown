@@ -14,7 +14,7 @@ excerpt:
 
   In this article, we discuss 3 learning resources for beginning web developers to help boost their learning.
 
-categories: design
+categories: development
 
 tags:
 
