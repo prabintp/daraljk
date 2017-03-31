@@ -10,10 +10,10 @@ facebook_username: ddinsmoredesign
 facebook_url: https://www.facebook.com/ddinsmoredesign
 twitter_username: dinsmoredesign
 twitter_url: https://twitter.com/dinsmoredesign
-instagram_username: 
-instagram_url: 
-dribble_username: 
-dribble_url: 
+instagram_username: dinsmoredesign
+instagram_url: https://www.instagram.com/dinsmoredesign
+dribble_username:
+dribble_url:
 github_username: DinsmoreDesign
 github_url: https://github.com/DinsmoreDesign
 
@@ -45,7 +45,7 @@ permalink: pretty
 # Minifier settings
 minibundle:
   minifier_commands:
-    js: uglifyjs -
+    js: node_modules/.bin/uglifyjs -
 
 gems:
 

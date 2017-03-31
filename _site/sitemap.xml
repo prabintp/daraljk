@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://dinsmoredesign.com/blog/when-and-why-you-should-hire-a-professional-designer</loc>
-<lastmod>2016-11-16T00:00:00-07:00</lastmod>
-</url>
-<url>
 <loc>https://dinsmoredesign.com/blog/3-resources-for-beginning-web-developers</loc>
 <lastmod>2016-10-04T00:00:00-07:00</lastmod>
 </url>
@@ -26,6 +22,9 @@
 </url>
 <url>
 <loc>https://dinsmoredesign.com/portfolio/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/resume/</loc>
 </url>
 <url>
 <loc>https://dinsmoredesign.com/services/</loc>
@@ -89,5 +88,9 @@
 </url>
 <url>
 <loc>https://dinsmoredesign.com/portfolio/studio-22-images/</loc>
+</url>
+<url>
+<loc>https://dinsmoredesign.com/node_modules/uglify-js/tools/props.html</loc>
+<lastmod>2017-01-15T03:32:09-07:00</lastmod>
 </url>
 </urlset>
