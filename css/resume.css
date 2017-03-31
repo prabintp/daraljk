@@ -374,7 +374,6 @@ footer {
   line-height: 54px;
   padding-top: 4px;
   padding-right: 8px;
-  padding-left: 3px;
 }
 h1,
 h2,
@@ -389,6 +388,7 @@ h6 {
 
 h1 {
   font-size: 36px;
+  font-weight: 600;
 }
 
 h2 {
@@ -741,14 +741,14 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
   width: 55px;
   height: 55px;
   border-radius: 50%;
-  background: #F9CE06;
+  background: #333;
   position: fixed;
   bottom: 30px;
   right: 30px;
   cursor: pointer;
 }
 .floating-button a {
-  color: white;
+  color: #FFF;
   position: absolute;
   left: 0;
   right: 0;
@@ -757,4 +757,7 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
   font-size: 25px;
   animation: plus-out 0.3s;
   transition: all 0.3s;
+}
+.floating-button:hover {
+  background-color: #F9CE06;
 }
