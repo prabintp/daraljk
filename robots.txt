@@ -2,5 +2,3 @@ User-agent: *
 Disallow: /resume
 Disallow: /resume/
 Disallow: /resume/index.html
-Disallow: /Gemfile
-Disallow: /Gemfile.lock

@@ -59,3 +59,8 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
