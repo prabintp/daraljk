@@ -2841,7 +2841,7 @@ body {
 .map {
   filter: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="g"><feColorMatrix type="matrix" values="0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0.3 0.3 0.3 0 0 0 0 0 1 0"/></filter></svg>#g');
   -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);    
+  filter: grayscale(100%);
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
 }
 .th {
@@ -2909,6 +2909,16 @@ button.hollow {
     background-color: #F9CE06;
     color: #FFF;
   }
+button.white {
+  background-color: #FFF;
+  border-color: #FFF;
+  color: #333;
+}
+  button.white:hover {
+    background-color: transparent;
+    border-color: #FFF;
+    color: #FFF;
+  }
 button.hollow.white {
   background-color: transparent;
   border-color: #FFF;
@@ -2918,6 +2928,25 @@ button.hollow.white {
     background-color: #FFF;
     color: #333;
   }
+  button.black {
+    background-color: #333;
+    border-color: #333;
+    color: #FFF;
+  }
+    button.black:hover {
+      background-color: transparent;
+      border-color: #333;
+      color: #333;
+    }
+  button.hollow.black {
+    background-color: transparent;
+    border-color: #333;
+    color: #333;
+  }
+    button.hollow.black:hover {
+      background-color: #333;
+      color: #FFF;
+    }
 button.extended {
   width: 100%;
 }

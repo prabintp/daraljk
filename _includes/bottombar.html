@@ -1,69 +1,73 @@
 
 <div id="bottom-bar">
-  <div class='row' style="max-width: none;">
+  <div class="row" style="max-width: none;">
     <div class="large-12 columns">
-      <div class='two spacing'></div>
+      <div class="two spacing"></div>
       <div class="large-3 medium-3 columns">
         <h3>Dinsmore Design</h3>
         <p style="margin-bottom: 40px;">{{ site.description }}</p>
       </div>
       <div class="large-3 medium-3 columns">
-        <div class='links'>
+        <div class="links">
           <h3>Recent Projects</h3>
           <ul>
             {% assign items = site.portfolio | sort: 'date' | reverse %}
             {% for item in items limit: 4 %}
-              <li><a href="{{item.url}}">{{item.title}}</a></li>
+              <li>
+                <a href="{{item.url}}" title="View case study on {{item.title}}">{{item.title}}</a>
+              </li>
             {% endfor %}
           </ul>
         </div>
       </div>
       <div class="large-3 medium-3 columns">
-        <div class='links'>
+        <div class="links">
           <h3>Recent Posts</h3>
           <ul>
             {% for post in site.posts limit: 4 %}
-              <li><a href="{{post.url}}">{{post.title | capitalize}}</a></li>
+              <li>
+                <a href="{{post.url}}" title="Read about: {{post.title}}">{{post.title | capitalize}}</a>
+              </li>
             {% endfor %}
           </ul>
         </div>
       </div>
       <div class="large-3 medium-3 columns">
-        <div class='links'>
-          <ul class='socials'>
+        <div class="links">
+          <ul class="socials">
 
             {% if site.facebook_url %}
               <li>
-                <a href='{{ site.facebook_url }}' target="_blank" title="Like us on Facebook">
-                  <i class='fa fa-facebook'></i>
+                <a href="{{ site.facebook_url }}" target="_blank" title="Like us on Facebook">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </li>
             {% endif %}
             {% if site.twitter_url %}
               <li>
-                <a href='{{ site.twitter_url }}' target="_blank" title="Tweet us on Twitter">
-                  <i class='fa fa-twitter'></i>
+                <a href="{{ site.twitter_url }}" target="_blank" title="Tweet us on Twitter">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
               </li>
             {% endif %}
             {% if site.instagram_url %}
               <li>
-                <a href='{{ site.instagram_url }}' target="_blank" title="Follow us on Instagram">
-                  <i class='fa fa-instagram'></i>
+                <a href="{{ site.instagram_url }}" target="_blank" title="Follow us on Instagram">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
               </li>
             {% endif %}
             {% if site.dribble_url %}
               <li>
-                <a href='{{ site.dribble_url }}' target="_blank" title="View us on Dribble">
-                  <i class='fa fa-dribble'></i>
+                <a href="{{ site.dribble_url }}" target="_blank" title="View us on Dribble">
+                  <i class="fa fa-dribble" aria-hidden="true"></i>
                 </a>
               </li>
             {% endif %}
             {% if site.github_url %}
               <li>
-                <a href='{{ site.github_url }}' target="_blank" title="View us on GitHub">
-                  <i class='fa fa-github'></i>
+                <a href="{{ site.github_url }}" target="_blank" title="View us on GitHub">
+                  <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
               </li>
             {% endif %}
@@ -72,7 +76,7 @@
         </div>
       </div>
       <!-- <div class="large-3 columns">
-        <div class='links'>
+        <div class="links">
           <h3>All Categories</h3>
           <ul>
             {% for cat in site.categories %}
@@ -82,7 +86,7 @@
         </div>
       </div>
       <div class="large-12 columns">
-        <div class='links'>
+        <div class="links">
           <h3>All Tags</h3>
           <ul>
             {% for tag in site.tags %}

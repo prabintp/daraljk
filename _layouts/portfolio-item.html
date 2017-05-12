@@ -7,34 +7,36 @@
 
     {% include header.html %}
 
-   		<img alt="{{ page.title }}" src="{{ page.hero-image }}" class="portfolio-item-hero" />
+ 		<img alt="{{ page.title }}" src="{{ page.hero-image }}" class="portfolio-item-hero" />
 
-		<div class='full' style='background: #333; padding: 40px 0 20px 0;'>
-		  	<div class='row'>
-		    	<div class='large-12 columns'>
-		      		<h2 style='color: #fff;'><a href="/portfolio">Portfolio</a> | {{page.client}}</h2>
+		<div class="full" style="background: #333; padding: 40px 0 20px 0;">
+		  	<div class="row">
+		    	<div class="large-12 columns">
+		      		<h2 style="color: #fff;">
+								<a href="{{site.baseurl}}/portfolio" tile="Go back to main portfolio page">Portfolio</a> | {{page.client}}
+							</h2>
 		    	</div>
 		  	</div>
 		</div>
 
 
 
-		<div class='full'>
-			<!-- <div class='row'>
-				<div class='large-12 columns'>
+		<div class="full">
+			<!-- <div class="row">
+				<div class="large-12 columns">
 					<img alt="{{ page.title }}" src="{{ page.hero-image }}" />
 				</div>
 			</div>
 
-			<div class='two spacing'></div> -->
+			<div class="two spacing"></div> -->
 
-			<div class='row'>
-				<div class='large-8 columns'>
+			<div class="row">
+				<div class="large-8 columns">
 					<h3>{{page.title}}</h3>
 					{{ content }}
 				</div>
-				<div class='large-4 columns'>
-					<ul class='info'>
+				<div class="large-4 columns">
+					<ul class="info">
 						<li>
 							<strong>Summary:</strong>
 							<p>{{ page.description }}</p>
@@ -42,7 +44,7 @@
 						<li>
 							<strong>Client:</strong>
 							{% if page.website %}
-								<a href="{{ page.website }}">{{ page.client }}</a>
+								<a href="{{ page.website }}" title="Visit {{page.client}}'s webpage'">{{ page.client }}</a>
 							{% else %}
 								{{ page.client }}
 							{% endif %}
@@ -58,7 +60,7 @@
 							  	<ul class="small-block-grid-2 large-block-grid-4" data-clearing>
 							    	{% for image in page.images %}
 							      		<li>
-							        		<img src="{{image.url}}" data-caption="{{image.caption}}" class="th">
+							        		<img src="{{image.url}}" data-caption="{{image.caption}}" class="th" alt="{{image.caption}}">
 							      		</li>
 							    	{% endfor %}
 							  	</ul>
@@ -67,19 +69,17 @@
 
 					</ul>
 				</div>
-				<div class='large-12 columns'>
-					<div class='one spacing'></div>
+				<div class="large-12 columns">
+					<div class="one spacing"></div>
 					<hr />
-					<div class='one spacing'></div>
+					<div class="one spacing"></div>
 	    			{% include share.html %}
 				</div>
 			</div>
-			
-			<div class='three spacing'></div>
-			
-		</div>
 
-    </div>
+			<div class="three spacing"></div>
+
+		</div>
 
     {% include bottombar.html %}
 

@@ -1,8 +1,7 @@
 ---
 layout: default
 section_id: home
-title: We Build Brands
-desc: by providing elegant solutions to complex problems for businesses who want to create meaningful relationships with their clients.
+title: Don't settle for mediocre
 
 custom_js:
   - masonry.pkgd
@@ -11,25 +10,6 @@ custom_js:
   - jquery.validate
   - form-validate
   - parallax.min
-
-callout: Design & Development - Built for YOU
-callout_desc:
-  - title: We get it, hiring a designer or web developer can be scary.
-    text: Maybe you're a small business without much capital to spend; you're not sure whether hiring a professional is worth it. Maybe you already have a website or you're making your own promotional materials and you're confused about what value a professional can add to your business. Heck, maybe you just don't understand the process and you're scared of the unknown.
-
-  - title: Full transparency
-    text: Most of our competitors will try to upsell you on extras you probably don't need through expensive packages, but you might not know enough about them to say no. If we don't think you need it, we won't try to sell it to you. It's that simple - we believe in honest client interactions and will always keep your best interests in mind. Confused by something we might say? Ask and we'll be glad to explain!
-
-  - title: Branding vs Design
-    text: Most professional designers are skilled at making attractive graphics and collateral but fall short when it comes to developing a complete brand's identity. At Dinsmore Design, we try to make a clear distinction between a "logo" and an "identity," because we pride ourselves on the research we put into each and every project in order to maximize its potential to YOUR clients. We provide a carefully thought out experience to your clients that reflects your business's target market and core values, not just a pretty graphic to attach to your emails.
-
-  - title: Web Development vs Web Design
-    text: We're sure you've seen it. You log onto a website selling "custom website designs" and you're immediately baffled at the price based on what they're offering. Most companies offering these services are web designers who mostly lack the technical skills to develop a website from the ground up and rely on a content management service (such as WordPress) to design your website. While utilizing these systems definitely takes a skill set in itself, the fact of the matter is, these companies are mostly using off-the-shelf themes, slightly editing them and then charging you thousands of dollars for the end result. The advantage of hiring a professional web developer is huge - while a designer might understand the specifics of the software suite, the web developer will understand the underlying code and how it interacts with the server.
-
-  - text: At Dinsmore Design, we offer both services, at different price ranges. Need a fully-customized website built from the ground up, utilizing the latest web technologies? Need to target a specific form-factor and need speed above all else? Building a web app like nothing else? No problem! However, we totally understand that not all businesses need all the bells and whistles and we're glad to help you save your hard-earned cash with and off-the-shelf system. Don't worry, the site will still completely reflect your branding standards. Heck, we'll even teach you how to use the system after it's all set up.
-
-  - title: Intrigued? 
-    text: Feel free to check out some of our work below and then send us a message. I promise - we don't bite!
 
 ---
 <style type="text/css">
@@ -42,53 +22,81 @@ callout_desc:
   <div class="hero-text">
     <h1>{{ page.title }}</h1>
     <p>
-      {{ page.desc }}
+      We develop <strong>bold</strong> websites for <strong>bold</strong> brands.
     </p>
   </div>
 </div>
 
-{{page.id}}
-
-<div id="home-callout" class='full' style='padding: 140px 0 120px 0;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2 style='color: #333; text-align: center;'>{{ page.callout }}</h2>
+<div id="home-callout" class="full" style="padding: 140px 0 120px 0;">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2 class="text-center" style="color: #333">Design & Development - Built for YOU</h2>
+      <p class="text-center">
+         Creating your company's website is about building your brand. <strong>We build brands</strong> for companies who wants to create meaningful relationships with their clients.
+      </p>
     </div>
   </div>
 </div>
 
-<div id="home-callout-text" class='full' style='padding: 140px 0 120px 0;' class="parallax-window" data-parallax="scroll" data-image-src="/images/pages/home2.jpg">
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% for item in page.callout_desc %}
-        {% if item.title %}
-          <h3>{{ item.title }}</h3>
-        {% endif %}
-        <p>
-          {{ item.text }}
-        </p>
-      {% endfor %}
+<div id="home-callout-text" class="full parallax-window" style="padding: 140px 0 120px 0;" data-parallax="scroll" data-image-src="{{site.baseurl}}/images/pages/home2.jpg">
+  <div class="row">
+    <div class="small-12 columns">
+      <h3>
+        We get it, hiring a web developer or designer can be scary
+      </h3>
+      <p>
+        Do you own a small business without much capital to spend and you're not sure whether hiring a professional is worth it? Already have a Wix, Squarespace or GoDaddy website and you're already making your own promotional materials and you're confused about what value a professional can add to your business? Maybe you just don't understand the process and you're scared of the unknown? We want our clients to be as comfortable with us as possible. If you're on the fence about hiring a professional (<strong>don't worry - you're not alone!</strong>), we're always here to talk!
+      </p>
+      <h3>
+        Full transparency
+      </h3>
+      <p>
+        Most of our competitors will try to upsell you on extras you probably don't need or won't need for years to come. They'll purposely use industry jargon to confuse you because they know you're not well enough informed on the topic to say no. <strong>If we don't think you need it, we won't try to sell it to you.</strong> It's that simple - we believe in honest client interactions and will always keep your best interests in mind. Confused by something we might say? Ask and we'll be glad to explain!
+      </p>
+      <h3>
+        Ready to learn more?
+      </h3>
+      <div class="row">
+        <div class="small-12 medium-5 columns">
+          <a href="{{ site.baseurl }}/services/" title="View our services page to see more">
+            <button class="hollow extended white" style="margin: 0;">See what we can do for you.</button>
+          </a>
+        </div>
+        <div class="small-12 medium-2 columns">
+          <p class="text-center" style="margin: 10px 0;">
+            OR
+          </p>
+        </div>
+        <div class="small-12 medium-5 columns">
+          <a href="{{ site.baseurl }}/contact/" title="Contact us!">
+            <button class="extended white" style="margin: 0;">Call, text or email us!</button>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class='full' style='padding: 140px 0 120px 0;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2 style='color: #333; text-align: center;'>Recent projects</h2>
+<div class="full" style="padding: 140px 0 120px 0;">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2 class="text-center" style="color: #333">Let's face it, you came to see our work</h2>
+      <p class="text-center">
+        Here's a few of our recent projects. If you like what you see, <a href="{{ site.baseurl }}/portfolio/" title="View our portfolio for more samples of our work!">head over to our portfolio</a> for more!
+      </p>
     </div>
   </div>
 </div>
 
-<div class='mod modMasonryGallery'>
-  <ul class='gallery'>
+<div class="mod modMasonryGallery">
+  <ul class="gallery">
     {% assign items = site.portfolio | sort: 'date' | reverse %}
     {% for item in items limit: 8 %}
       <li>
-        <a href='{{item.url}}'>
+        <a href="{{item.url}}" title="View a case study on: {{item.title}}">
           <img alt="{{item.title}}" src="{{item.thumbnail}}" />
-          <div class='overlay'>
-            <div class='thumb-info'>
+          <div class="overlay">
+            <div class="thumb-info">
               <h3>{{item.project}}</h3>
               <p>{{item.description | truncate: 140, '... [Read More]'}}</p>
             </div>
@@ -99,82 +107,15 @@ callout_desc:
   </ul>
 </div>
 
-<div class='full' style='padding: 140px 0 120px 0;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2 style='color: #333;text-align: center;margin-bottom:60px;'>
+<div class="full" style="padding: 140px 0 120px 0;">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2 style="color: #333;text-align: center;margin-bottom:60px;">
         Curious what we can do for you? <br />
         <small>Send us a message!</small>
       </h2>
-      <div class='medium-12 columns'>
-
-        <div id="form">
-          <form id="contact-form" action="//formspree.io/info@dinsmoredesign.com" method="POST">
-
-            <!-- Redirect -->
-
-              <input type="hidden" name="_next" value="{{ site.url }}/contact/thanks" />
-
-            <!-- Gotcha -->
-
-              <input type="text" name="_gotcha" style="display:none" />
-
-            <!-- Name Input -->
-
-              <div class="medium-6 small-12 columns">
-                <label for="name">
-                  Name<span>*</span>
-                </label>
-                <input type="text" name="name" placeholder="Enter your name here" required />
-              </div>
-
-            <!-- Email Input -->
-
-              <div class="medium-6 small-12 columns">
-                <label for="email">
-                  Email<span>*</span>
-                </label>
-                <input type="email" name="_replyto" placeholder="Enter your email here" required />
-              </div>
-
-            <!-- Phone Input -->
-
-              <div class="medium-6 small-12 columns">
-                <label for="phone">
-                  Phone
-                </label>
-                <input type="tel" name="phone" placeholder="Enter your phone number here" />
-              </div>
-
-            <!-- Subject Input -->
-
-              <div class="medium-6 small-12 columns">
-                <label for="email">
-                  Subject<span>*</span>
-                </label>
-                <input type="text" name="subject" placeholder="Enter your subject here" required />
-              </div>
-
-            <!-- Message Input -->
-
-              <div class="small-12 columns">
-                <label for="message">
-                  Message<span>*</span>
-                </label>  
-                <textarea name="message" placeholder="Type your message in here" class="" required></textarea>
-              </div>
-
-            <!-- Submit Button -->
-
-              <div class="small-12 columns">
-                <button type="submit" class="hollow extended">
-                  Submit
-                </button>
-              </div>
-
-          </form>
-        </div>
-
+      <div class="medium-12 columns">
+        {% include contactform.html %}
       </div>
     </div>
   </div>

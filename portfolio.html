@@ -12,32 +12,32 @@ custom_js:
 
 <!-- <div id="portfolio-hero"></div> -->
 
-<div class='mod modMasonryGallery'>
-  <div class='gallery-nav'>
-    <h2 style='color: #fff;'>Our Work</h2>
+<div class="mod modMasonryGallery">
+  <div class="gallery-nav">
+    <h2 style="color: #fff;">Our Work</h2>
     <ul>
-      <li class='current'>
-        <a data-cat='all' href='#'>All</a>
+      <li class="current">
+        <a data-cat="all" href="#" title="Show all portfolio items">All</a>
       </li>
       <li>
-        <a data-cat='branding' href='#'>Branding</a>
+        <a data-cat="branding" href="#" title="Show all branding items">Branding</a>
       </li>
       <li>
-        <a data-cat='web-development' href='#'>Web Development</a>
+        <a data-cat="web-development" href="#" title="Show all web development items">Web Development</a>
       </li>
       <li>
-        <a data-cat='print-design' href='#'>Print Design</a>
+        <a data-cat="print-design" href="#" title="Show all print design items">Print Design</a>
       </li>
     </ul>
   </div>
-  <ul class='gallery'>
+  <ul class="gallery">
     {% assign items = site.portfolio | sort: 'date' | reverse %}
     {% for item in items %}
-      <li class='{{item.tag}}'>
-        <a href='{{item.url}}'>
+      <li class="{{item.tag}}">
+        <a href="{{item.url}}" title="View a case study about: {{item.title}}">
           <img alt="{{item.title}}" src="{{item.thumbnail}}" />
-          <div class='overlay'>
-            <div class='thumb-info'>
+          <div class="overlay">
+            <div class="thumb-info">
               <h3>{{item.project}}</h3>
               <p>{{item.description | truncate: 140, '... [Read More]'}}</p>
             </div>

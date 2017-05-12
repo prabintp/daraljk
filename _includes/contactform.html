@@ -1,0 +1,66 @@
+<div id="form">
+  <form id="contact-form" action="//formspree.io/info@dinsmoredesign.com" method="POST">
+
+    <!-- Redirect -->
+
+      <input type="hidden" name="_next" value="{{ site.baseurl }}/contact/thanks/" />
+
+    <!-- Gotcha -->
+
+      <input type="text" name="_gotcha" style="display:none" />
+
+    <!-- Name Input -->
+
+      <div class="medium-6 small-12 columns">
+        <label for="name">
+          Name<span>*</span>
+        </label>
+        <input type="text" name="name" placeholder="Enter your name here" required />
+      </div>
+
+    <!-- Email Input -->
+
+      <div class="medium-6 small-12 columns">
+        <label for="email">
+          Email<span>*</span>
+        </label>
+        <input type="email" name="_replyto" placeholder="Enter your email here" required />
+      </div>
+
+    <!-- Phone Input -->
+
+      <div class="medium-6 small-12 columns">
+        <label for="phone">
+          Phone
+        </label>
+        <input type="tel" name="phone" placeholder="Enter your phone number here" />
+      </div>
+
+    <!-- Subject Input -->
+
+      <div class="medium-6 small-12 columns">
+        <label for="email">
+          Subject<span>*</span>
+        </label>
+        <input type="text" name="subject" placeholder="Enter your subject here" required />
+      </div>
+
+    <!-- Message Input -->
+
+      <div class="small-12 columns">
+        <label for="message">
+          Message<span>*</span>
+        </label>
+        <textarea name="message" placeholder="Type your message in here" class="" required></textarea>
+      </div>
+
+    <!-- Submit Button -->
+
+      <div class="small-12 columns">
+        <button type="submit" class="hollow extended">
+          Submit
+        </button>
+      </div>
+
+  </form>
+</div>

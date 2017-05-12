@@ -1,19 +1,19 @@
-<div class='contain-to-grid fullwidth alt sticky'>
-  <nav class='top-bar' data-topbar role="navigation">
-    <ul class='title-area'>
-      <li class='name'>
+<div class="contain-to-grid fullwidth alt sticky">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
         <h1>
-          <a href='{{site.baseurl}}/'>
+          <a href="{{site.baseurl}}/" title="Return to homepage">
             <strong>Dinsmore</strong>Design
           </a>
         </h1>
       </li>
-      <li class='toggle-topbar menu-icon'>
-        <a href='#'><i class="fa fa-bars" aria-hidden="true"></i></a>
+      <li class="toggle-topbar menu-icon">
+        <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
       </li>
     </ul>
-    <section class='top-bar-section'>
-      <ul class='right'>
+    <section class="top-bar-section">
+      <ul class="right">
         {% for item in site.data.nav %}
           {% if item.section_id == page.section_id %}
             {% assign active_class = "active" %}
@@ -23,18 +23,18 @@
 
           {% if item.children %}
             <li class="has-dropdown {{active_class}}">
-              <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
-              <ul class='dropdown'>
+              <a href="{{site.baseurl}}/{{ item.path }}" title="Visit {{item.name}} page">{{ item.name }}</a>
+              <ul class="dropdown">
                 {% for child in item.children %}
                   <li>
-                    <a href="{{site.baseurl}}/{{ child.path }}">{{ child.name }}</a>
+                    <a href="{{site.baseurl}}/{{ child.path }}" title="Visit {{child.name}} page">{{ child.name }}</a>
                   </li>
                 {% endfor %}
               </ul>
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.baseurl}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.baseurl}}/{{ item.path }}" title="Visit {{item.name}} page">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}

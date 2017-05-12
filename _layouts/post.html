@@ -5,16 +5,18 @@ section_id: blog_post
 
 <div id="post-hero" style="background-image: url( {{ page.image }} )"></div>
 
-<div class='full' style='background: #333; padding: 40px 0 20px 0;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2 style='color: #fff;'><a href="/blog">Blog</a> | {{ page.title }}</h2>
-      <p class='info'>
+<div class="full" style="background: #333; padding: 40px 0 20px 0;">
+  <div class="row">
+    <div class="large-12 columns">
+      <h2 style="color: #fff;">
+        <a href="{{site.baseurl}}/blog" title="Go back to main Blog page">Blog</a> | {{ page.title }}
+      </h2>
+      <p class="info">
         <span>{{page.date | date: "%B %d, %Y" }}</span>
         /
         <span>
           by
-          <a href="/about" title="Learn more about our business and authors">{{page.author}}</a>
+          <a href="{{site.baseurl}}/about/" title="Learn more about our business and authors">{{page.author}}</a>
         </span>
         <!-- /
         <span>
@@ -35,19 +37,19 @@ section_id: blog_post
   </div>
 </div>
 
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modBlogPost big no_bg'>
-        <div class='content'>
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="mod modBlogPost big no_bg">
+        <div class="content">
           {{ content }}
         </div>
       </div>
-      <div class='four spacing'></div>
+      <div class="four spacing"></div>
       {% include share.html %}
-      <div class='two spacing'></div>
+      <div class="two spacing"></div>
       {% include disqus.html %}
-      <div class='four spacing'></div>
+      <div class="four spacing"></div>
     </div>
   </div>
 </div>
