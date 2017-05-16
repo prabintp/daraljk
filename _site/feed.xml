@@ -6,8 +6,8 @@
 </description>
     <link>https://dinsmoredesign.com/</link>
     <atom:link href="dinsmoredesign.comhttps://dinsmoredesign.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 May 2017 13:46:36 -0700</pubDate>
-    <lastBuildDate>Tue, 16 May 2017 13:46:36 -0700</lastBuildDate>
+    <pubDate>Tue, 16 May 2017 15:11:19 -0700</pubDate>
+    <lastBuildDate>Tue, 16 May 2017 15:11:19 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -139,6 +139,123 @@
         
         
         <category>development</category>
+        
+      </item>
+    
+      <item>
+        <title>What to do when you think your Gmail was hacked.</title>
+        <description>&lt;p&gt;As we move into an increasingly technology-dependent era, unfortunately, “hacked” email accounts have become increasingly more common. If you think you’ve been affected, don’t worry, you’re not alone.&lt;/p&gt;
+
+&lt;p&gt;The most common way of hacking your email account is called &lt;a href=&quot;https://en.wikipedia.org/wiki/Phishing&quot; title=&quot;Read the Wikipedia article on Phishing&quot;&gt;phishing&lt;/a&gt;, or “the fraudulent practice of sending emails purporting to be from reputable companies in order to induce individuals to reveal personal information, such as passwords and credit card numbers.” While phishing is always a threat, in light of a recent nation-wide attack on Gmail, we’ve put together a quick guide on how to identify and protect yourself against phishing scams.&lt;/p&gt;
+
+&lt;p&gt;An example of a phishing email is shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing_top.png&quot; alt=&quot;Screenshot of phishing scam&quot; title=&quot;Screenshot of phishing scam&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-spot-a-phishing-email&quot;&gt;How to spot a phishing email&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;(And how to protect yourself from future attacks)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Hackers are becoming more sophisticated in their efforts; it can be difficult to distinguish a legitimate email from a fake one, especially if it’s coming from a person you know. While phishing scams usually start with a random sender, as soon as your account is compromised by clicking the link contained within it, the hacker will log into your account and distribute the email, &lt;strong&gt;as you&lt;/strong&gt;, to everyone on your contacts list.&lt;/p&gt;
+
+&lt;p&gt;Many times, the email can look legitimate, by disguising itself as someone sharing a Google Doc with you, or sending a survey for you to take. In other cases, they may use a linked URL that looks to go to a legitimate web address, but actually, goes to a different location than specified (like in the image below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing1.png&quot; alt=&quot;Screenshot of Google Docs phishing scam&quot; title=&quot;Screenshot of Google Docs phishing scam&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Above, is a screenshot of an actual phishing scam that recently affected Gmail users. While it appears to be potentially legitimate because of the styling of the button, take a look at an actual email Google would send you with a shared Google Doc below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing2.png&quot; alt=&quot;Real shared Google Docs email&quot; title=&quot;Real shared Google Docs email&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you’ll see, the original email had a lot missing. However, that’s not to say that you’ll never see a phishing scam that looks exactly like what a company like Google would send you; it &lt;strong&gt;can&lt;/strong&gt; happen. After all, they did identically copy the “Open in Docs” button.&lt;/p&gt;
+
+&lt;p&gt;While simply looking at the email and seeing that something looks phishy (ha, see what I did there!?) is usually a great first indicator, the best way to tell if an email is legitimate or not is by inspecting the actual links within the email.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It’s important to note that, simply opening an email containing a phishing scam &lt;strong&gt;does not&lt;/strong&gt; mean your account was immediately infected. You have to physically click a button or link and (usually) enter some kind of information or give permission to something in order for your account to be compromised.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;how-to-inspect-the-links-of-an-email-for-legitimate-urls&quot;&gt;How to inspect the links of an email for legitimate URLs&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;(This is actually more simple than you’d think!)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you’re on a desktop or laptop computer…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Hover your mouse over the button or link and look in the bottom left-hand corner of your browser’s page. The URL of the link will display here. In the real example above, hovering over the button shows the following URL on the bottom left of the screen:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing3.png&quot; alt=&quot;Example URL when hovering over link&quot; title=&quot;Example URL when hovering over link&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If your browser doesn’t support this feature, you can alternatively right-click the link and select “Copy Link Address” (this title may be different depending on your browser) and then paste it into a text editor to check where you’re navigating to:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing4.png&quot; alt=&quot;Right clicking a link to select copy link address&quot; title=&quot;Right clicking a link to select copy link address&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you’re on a mobile device…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Place your finger over the link and long-hold until a popup opens. On Android, this will display the link’s truncated URL and give you the ability to copy it, so you can paste it somewhere else to view the entire address. The function is very similar on iOS devices:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing5.png&quot; alt=&quot;Screenshot of URL on Android&quot; title=&quot;Screenshot of URL on Android&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In both of these instances, you’re inspecting the address to see if it looks legitimate. &lt;strong&gt;The URL should go to a web address you recognize.&lt;/strong&gt; In this case, the URL &lt;strong&gt;starts with&lt;/strong&gt; google.com, a website we recognize and trust.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you’re in doubt, don’t click it!&lt;/strong&gt; Contact the person who sent you the message and ask if it’s legitimate, or delete the email if it’s not important.&lt;/p&gt;
+
+&lt;h3 id=&quot;ive-already-clicked-the-link-my-account-is-hacked&quot;&gt;I’ve already clicked the link, my account is hacked!&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;(Don’t worry, it’ll be okay! Take a deep breath and follow the directions below.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1-reset-your-password&quot;&gt;Step 1: Reset your password&lt;/h4&gt;
+
+&lt;p&gt;If your account has been compromised, the first step you need to take is to change your Google password.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Sign into your My Account page&lt;/li&gt;
+  &lt;li&gt;In the “Sign-in &amp;amp; security” section, select &lt;strong&gt;Signing in to Google &amp;gt; Password&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Type your current password and your new password.&lt;/li&gt;
+  &lt;li&gt;Select &lt;strong&gt;Change password&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s a &lt;a href=&quot;https://www.google.com/settings/passwordchange&quot; title=&quot;Change your Google password&quot;&gt;direct link&lt;/a&gt;, if you’re already signed in.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2-revoke-account-permission-to-unknown-apps&quot;&gt;Step 2: Revoke account permission to unknown apps&lt;/h4&gt;
+
+&lt;p&gt;Navigate to https://myaccount.google.com/permissions and inspect the permissions associated with your Google account. If you notice any apps you don’t remember giving permissions to, click “Revoke”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing11.png&quot; alt=&quot;Google App Permissions&quot; title=&quot;Google App Permissions&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3-sign-out-other-web-sessions&quot;&gt;Step 3: Sign out other web sessions&lt;/h4&gt;
+
+&lt;p&gt;Inside your email’s inbox, scroll to the bottom of the page, you should see in the bottom right-hand corner a link that says “Open in &lt;em&gt;__ other location: Details” (the __&lt;/em&gt; would be the number of locations your email is currently signed in from). Click the &lt;strong&gt;Details&lt;/strong&gt; link:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing12.png&quot; alt=&quot;Details link at bottom right hand corner of Inbox&quot; title=&quot;Details link at bottom right hand corner of Inbox&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A new window will open. If anything is listed under “Concurrent Session Information”, click the button below it that says “&lt;strong&gt;Sign out all other web sessions&lt;/strong&gt;”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing10.png&quot; alt=&quot;Sign out all other web sessions&quot; title=&quot;Sign out all other web sessions&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4-remove-unwanted-device-access&quot;&gt;Step 4: Remove unwanted device access&lt;/h4&gt;
+
+&lt;p&gt;Navigate to https://myaccount.google.com/device-activity and inspect the listed devices on your account. If a device is listed that you don’t recognize, click on it in the list and select “&lt;strong&gt;Remove&lt;/strong&gt;”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing8.png&quot; alt=&quot;Google Device Activity&quot; title=&quot;Google Device Activity&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-5-remove-unwanted-email-filters&quot;&gt;Step 5: Remove unwanted email filters&lt;/h4&gt;
+
+&lt;p&gt;When logged into your email, click the gear icon at the top right, then go to Settings:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing6.png&quot; alt=&quot;Settings dropdown in Gmail&quot; title=&quot;Settings dropdown in Gmail&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, navigate to the Filters and Blocked Addresses tabs. If there’s anything listed that you didn’t enter in yourself, delete it (if you’ve never created an email filter, this list should be blank):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/phishing/phishing7.png&quot; alt=&quot;Gmail Filters&quot; title=&quot;Gmail Filters&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Questions?&lt;/strong&gt; Let us know in the comments!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 May 2017 00:00:00 -0700</pubDate>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/identifying-and-protecting-yourself-against-phishing-gmail/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/identifying-and-protecting-yourself-against-phishing-gmail/</guid>
+        
+        <category>email</category>
+        
+        <category>tips &amp; tricks</category>
+        
+        <category>phishing</category>
+        
+        
+        <category>misc</category>
         
       </item>
     
