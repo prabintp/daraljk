@@ -6,9 +6,141 @@
 </description>
     <link>https://dinsmoredesign.com/</link>
     <atom:link href="dinsmoredesign.comhttps://dinsmoredesign.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 May 2017 10:27:41 -0700</pubDate>
-    <lastBuildDate>Mon, 15 May 2017 10:27:41 -0700</lastBuildDate>
+    <pubDate>Tue, 16 May 2017 13:46:36 -0700</pubDate>
+    <lastBuildDate>Tue, 16 May 2017 13:46:36 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Web Accessibility for Dummies</title>
+        <description>&lt;p&gt;I’ll be the first to admit it, I was &lt;strong&gt;terrible&lt;/strong&gt; at designing websites to be accessible in the beginning. One might be thinking to themselves, “&lt;em&gt;But Derek, my website looks great to me, why should I care about making it accessible if I don’t have any visually-impaired clients?”&lt;/em&gt; I know, it’s hard to think about others who might have trouble viewing or using your website when you don’t have any disabilities yourself, but you’re really doing your users a disservice by not thinking about everyone who could potentially come across your URL. Just because you don’t currently have any users affected by poor accessibility, doesn’t mean it’s not worth delving into. In fact, many concepts associated with accessibility actually help boost your site’s SEO rankings, because search engine bots can’t see your website, either, they can only read it!&lt;/p&gt;
+
+&lt;h4 id=&quot;hold-on-a-second-what-is-accessibility-again&quot;&gt;Hold on a second. What is accessibility, again?&lt;/h4&gt;
+
+&lt;p&gt;I’ll go ahead and defer to &lt;a href=&quot;http://www.adobe.com/accessibility/gettingstarted.html&quot; title=&quot;Adobe's Accessibility Guide&quot;&gt;Adobe&lt;/a&gt;’s own definition here, as I feel like they explain it pretty well:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Accessibility involves two key issues: how users with disabilities access electronic information and how web content designers and developers enable web pages to function with assistive devices used by individuals with disabilities. For the user with a disability, the challenge is to identify tools that provide the most convenient access to web-based and other electronic information. For the web content designer/developer, the challenge is to remove the obstacles that prevent accessibility tools from functioning effectively. In many cases, these challenges are relatively simple to overcome, but sometimes the solutions require some additional thought and effort.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;wcag-20-and-why-you-should-care-about-accessibility&quot;&gt;WCAG 2.0 and why you should care about accessibility&lt;/h4&gt;
+
+&lt;p&gt;W3C’s Web Content Accessibility Guidelines &lt;a href=&quot;https://www.w3.org/WAI/intro/wcag&quot; title=&quot;Visit WCAG website&quot;&gt;(WCAG)&lt;/a&gt; were developed with individuals and organizations around the world to provide standards for web accessibility. As developers, these are the standards and tools we utilize to build accessible websites across the web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.w3.org/standards/webdesign/accessibility&quot; title=&quot;Visit WC3 Accessibility website&quot;&gt;WC3&lt;/a&gt; defines the purpose of the WCAG guidelines as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is essential that the Web be accessible in order to provide equal access and equal opportunity to people with diverse abilities. Indeed, the UN Convention on the Rights of Persons with Disabilities recognizes access to information and communications technologies, including the Web, &lt;strong&gt;as a basic human right.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They go on by saying:&lt;/p&gt;
+
+&lt;p&gt;“&lt;strong&gt;Accessibility supports social inclusion&lt;/strong&gt; for people with disabilities as well as others, such as older people, people in rural areas, and people in developing countries.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;There is also a strong business case for accessibility.&lt;/strong&gt; Accessibility overlaps with other best practices such as mobile web design, device independence, multi-modal interaction, usability, design for older users, and search engine optimization (SEO). Case studies show that accessible websites have better search results, reduced maintenance costs, and increased audience reach, among other benefits. Developing a Web Accessibility Business Case for Your Organization details the social, technical, financial, and legal benefits of web accessibility.”&lt;/p&gt;
+
+&lt;p&gt;You should be developing towards their AA standards, at a minimum.&lt;/p&gt;
+
+&lt;h4 id=&quot;how-do-i-test-if-my-site-is-accessible&quot;&gt;How do I test if my site is accessible?&lt;/h4&gt;
+
+&lt;p&gt;Unless your site is really simple in its content, it’s pretty unlikely it’ll be &lt;em&gt;fully&lt;/em&gt; accessible from the get-go, but the easiest way to check your site is by refreshing your page and using the keyboard to fully navigate your website utilizing the Tab, Space, Enter and arrow keys. You’ll also want to use a screen reader to make sure your content is read in the correct order by your computer. If you’re using Mac, their &lt;a href=&quot;https://www.apple.com/accessibility/mac/vision/&quot; title=&quot;Visit the Mac VoiceOver website&quot;&gt;VoiceOver&lt;/a&gt; tool is a great start. For Windows, the free &lt;a href=&quot;https://www.nvaccess.org/&quot; title=&quot;Visit the NV Access website&quot;&gt;NVDA&lt;/a&gt; suite is worth checking out, plus the industry-standard, &lt;a href=&quot;http://www.freedomscientific.com/Products/Blindness/JAWS&quot; title=&quot;Visit Job Access With Speech - JAWS - website&quot;&gt;JAWS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Using your keyboard and a screen reader to navigate and read your page can be a real eye-opener for developers who don’t usually build sites for disabled users. Don’t worry, thankfully accessibility has come a long way in the past few years and many standards have emerged that make it even easier to build an accessible website. Keep in mind, this guide is a crash-course on accessibility and the topic can get very dense, the more complex your application is.&lt;/p&gt;
+
+&lt;h4 id=&quot;accessibility-the-basics&quot;&gt;Accessibility: The Basics&lt;/h4&gt;
+
+&lt;p&gt;Fortunately, accessibility really isn’t that hard once you start to develop with it in mind. From a general sense, it really boils down to a few main elements:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Making sure your images and links both contain proper “alt” and “title” attributes with &lt;strong&gt;descriptive&lt;/strong&gt; messages&lt;/li&gt;
+  &lt;li&gt;Textual elements provide adequate contrast with their background elements&lt;/li&gt;
+  &lt;li&gt;Items that should be clickable are focusable by the keyboard and provide visual cues to the reader when they are selected&lt;/li&gt;
+  &lt;li&gt;Form elements like checkboxes and radio buttons are selectable by keyboard actions&lt;/li&gt;
+  &lt;li&gt;JavaScript interactions are controllable by the keyboard&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;1-properly-adding-descriptions-to-images-and-anchors&quot;&gt;1. Properly adding descriptions to images and anchors&lt;/h4&gt;
+
+&lt;p&gt;If you’ve ever done SEO for a website, you know how important it is to add &lt;em&gt;alt&lt;/em&gt; descriptions to images and &lt;em&gt;titles&lt;/em&gt; to anchor tags, but what you probably didn’t realize is, you’re actually making your website more accessible to visually-impaired readers, too! Think about it: when Google indexes your website, it can’t actually see what’s rendered on a screen, it just reads your markup. That’s exactly how a screenreader works and it’s simple to fix if you haven’t already.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The alt Attribute:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The “alt” attribute of an &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag provides alternative information for an image if a user cannot view it. Not only does this display in place of an image with a broken link, but it’s also read by screen readers and search engines, so they know what the image is.&lt;/p&gt;
+
+&lt;p&gt;You should try to be as descriptive in your text as possible, ie:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img src=&quot;cats.jpg&quot; alt=&quot;Cats playing outside&quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Try to avoid using images containing large amounts of text, but if your image does contain text, enter it in the alt description:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;img src=&quot;jobpost.jpg&quot; alt=&quot;Wanted: Talented Drupal Developers!&quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The title Attribute:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When using the title attribute you should be providing information about where you’re sending the user. You should not duplicate the anchor text in a title tag (unless you’re truncating the text within it), as it’s redundant. Use a title tag to support the content within the anchor:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a href=&quot;/portfolio&quot; title=&quot;Check out our portfolio to view more of our work&quot;&amp;gt; See more &amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-testing-the-contrast-of-your-pages-content&quot;&gt;2. Testing the contrast of your page’s content&lt;/h4&gt;
+
+&lt;p&gt;Contrast is concerned with the size, weight and color of your textual elements over their background content. WCAG 2.0 AA standards require a contrast ratio of 4.5:1 for normal text and 3:1 for large text. Thankfully, you don’t really need to know how to do this, as WebAIM has developed an awesome tool for this! Contrast Checker provides a great resource to verify that your color choice provides a proper contrast ratio, which you can &lt;a href=&quot;http://webaim.org/resources/contrastchecker/&quot; title=&quot;Visit ContrastChecker's webpage&quot;&gt;check out here&lt;/a&gt;. Just enter in your background’s color value and the foreground value and it’ll tell you whether you’re compliant or not! &lt;strong&gt;How’s that for easy?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; While not ideal, if your branding requires you to use a certain font color for anchor tags that can’t be changed, a good workaround is giving your link a dark border-bottom that allows your users to easily distinguish the text as a link.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-testing-for-properly-focusable-items&quot;&gt;3. Testing for properly focusable items&lt;/h4&gt;
+
+&lt;p&gt;This test is easy enough, simply navigate your page and start tabbing! You’ll know pretty quickly what is and isn’t focusable, which will give you a good starting point on where to look in your code. It’s also important to make sure your content is highlighted in the correct order. Avoid using too many absolutely-positioned elements, as this can really mess up the order your page is read in. Keep in mind, a screenreader usually reads your content in the order it’s placed in your HTML. If your items are tabbing in the wrong order, you’ll want to check your markup!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tabindex Attribute:&lt;/strong&gt; If you run into issues with tabbing that just can’t seem to be fixed in your regular markup, the &lt;code class=&quot;highlighter-rouge&quot;&gt;tabindex=&quot;&quot;&lt;/code&gt; HTML attribute is here to help. WebAIM cautions that you should only use this attribute, however, if:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The default tab order is not ideal, and&lt;/li&gt;
+  &lt;li&gt;The tab order cannot be changed by rearranging items in the content and/or by altering the stylesheet to reflect the best visual arrangement.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Learn more about the tabindex attribute &lt;a href=&quot;http://webaim.org/techniques/keyboard/tabindex&quot; title=&quot;WebAIM on tabindex&quot;&gt;at WebAIM’s website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note on Focused Elements:&lt;/strong&gt; Many beginning developers disable the built-in &lt;code class=&quot;highlighter-rouge&quot;&gt;:focus&lt;/code&gt; CSS outline that browsers assign. This is a &lt;strong&gt;big no-no&lt;/strong&gt; when making your site accessible! &lt;strong&gt;Embrace the outline!&lt;/strong&gt; It makes it easier for your readers to see where they’re clicking on the page.&lt;/p&gt;
+
+&lt;h4 id=&quot;4-making-your-form-elements-accessible&quot;&gt;4. Making your form elements accessible&lt;/h4&gt;
+
+&lt;p&gt;This could easily be a topic in itself, so I won’t go into a lot of detail here. More recently, it’s become common practice for developers to use custom styling on checkboxes and radio buttons, because you cannot directly style the default HTML &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;input type=&quot;checkbox&quot;&amp;gt;&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;input type=&quot;radio&quot;&amp;gt;&lt;/code&gt;. Unfortunately, these solutions are rarely ever keyboard accessible and I strongly caution users who don’t already have a strong background in developing accessible websites to stay away from them. The default HTML form elements are accessible by nature.&lt;/p&gt;
+
+&lt;p&gt;If you &lt;em&gt;have&lt;/em&gt; to have custom checkboxes or radios, check out this &lt;a href=&quot;http://www.manuel-strehl.de/dev/on_replacing_checkboxes_with_CSS3.en.html&quot; title=&quot;Accessible custom checkbox tutorial&quot;&gt;tutorial by Manuel Strehl&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;5-accessible-javascript&quot;&gt;5. Accessible JavaScript&lt;/h4&gt;
+
+&lt;p&gt;Many people developing web pages believe that using JavaScript makes the page inaccessible, but that’s just not true. Using JavaScript &lt;strong&gt;does not&lt;/strong&gt; mean that your page is inaccessible, in fact, with modern screen readers allowing full support of the language, JS is actually a benefit to accessibility in many cases. However, this topic is very vast and requires more advanced knowledge, so I’ll leave this for another time. However, custom JavaScript is often where people run into issues with accessibility on more complex sites. Building a complex menu system that’s fully accessible can be pretty tricky, as well as sliders and other interactive elements.&lt;/p&gt;
+
+&lt;p&gt;WebAIM’s &lt;a href=&quot;http://webaim.org/techniques/javascript/&quot; title=&quot;Learn about accessible JavaScript from WebAIM&quot;&gt;article on accessible JavaScript&lt;/a&gt; is a great start for those of you wanting to learn more, but for beginners, I’d suggest starting with an accessible CSS/JS framework and make it easier on yourself. While most other frameworks definitely keep accessibility in mind, &lt;a href=&quot;http://foundation.zurb.com/sites/docs/accessibility.html&quot; title=&quot;Foundation 6's accessibility documentation&quot;&gt;Foundation 6 for Sites&lt;/a&gt; is currently the only fully-accessible CSS and JavaScript framework on the market… and it’s totally free!&lt;/p&gt;
+
+&lt;h4 id=&quot;advanced-readings&quot;&gt;Advanced Readings:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA&quot; title=&quot;Learn about ARIA from the Mozilla Developer Network&quot;&gt;Accessible Rich Internet Applications (ARIA)&lt;/a&gt; - a set of special accessibility attributes which can be added to any markup, but is especially suited to HTML.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://webaim.org/intro/&quot; title=&quot;Read the Intro to Web Accessibility&quot;&gt;WebAIM’s Intro to Web Accessibility&lt;/a&gt; - A quick overview to web accessibility and its development throughout the years.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/web-accessibility--ud891&quot; title=&quot;Take the free web accessibility course by Google on Udacity&quot;&gt;Udacity Web Accessibility&lt;/a&gt; - A free course developed by Google for the Udacity platform.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Have a question or a favorite resource for accessibility? Let us know in the comments!&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 May 2017 00:00:00 -0700</pubDate>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/accessibility-for-dummies/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/accessibility-for-dummies/</guid>
+        
+        <category>development</category>
+        
+        <category>tips &amp; tricks</category>
+        
+        <category>SEO</category>
+        
+        <category>accessibility</category>
+        
+        
+        <category>development</category>
+        
+      </item>
     
       <item>
         <title>3 Resources for Beginning Web Developers</title>
@@ -51,8 +183,8 @@
 &lt;p&gt;&lt;strong&gt;Have a favorite I haven’t listed? Let us know in the comments!&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Oct 2016 00:00:00 -0700</pubDate>
-        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/3-resources-for-beginning-web-developers</link>
-        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/3-resources-for-beginning-web-developers</guid>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/3-resources-for-beginning-web-developers/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/3-resources-for-beginning-web-developers/</guid>
         
         <category>web development</category>
         
@@ -168,8 +300,8 @@
 &lt;p&gt;&lt;a href=&quot;http://www.onextrapixel.com/2012/03/01/the-difference-between-print-and-web-design/&quot;&gt;The Difference Between Print and Web Design&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Sep 2016 00:00:00 -0700</pubDate>
-        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/5-tips-for-beginning-designers</link>
-        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/5-tips-for-beginning-designers</guid>
+        <link>https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/5-tips-for-beginning-designers/</link>
+        <guid isPermaLink="true">https://dinsmoredesign.comhttps://dinsmoredesign.com/blog/5-tips-for-beginning-designers/</guid>
         
         <category>design</category>
         

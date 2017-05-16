@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-permalink: /blog/:title
+permalink: /blog/:title/
 
 title:  When and why you should hire a professional designer
 date:   2016-11-16

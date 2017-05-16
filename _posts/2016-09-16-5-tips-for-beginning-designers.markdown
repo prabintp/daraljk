@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-permalink: /blog/:title
+permalink: /blog/:title/
 
 title:  5 Tips for Beginning Designers
 date:   2016-09-16
@@ -29,13 +29,13 @@ author: Derek Dinsmore
 
 
 *For several years, I’ve maintained this website as a digital timeline of my favorite work. I’ve used it to showcase my work to potential clients, but most importantly, I’ve used it to document the purpose of each project and my development as a designer. As someone who’s worked for an educational institution for most of my professional career, teaching things has always been a passion and it’s my hope that with this post, and the ones to follow, I can help up-and-coming designers be the best they can be. So, let’s get into it…*
- 
+
 I want to touch on the subject of education, and by that, I mean, **your** education as a designer.
 
 If you enjoy math or, at least, paid a little attention during geometry, let me lay it out for you in a way you might be able to understand. Remember how all squares are rectangles, but not all rectangles are squares? Graphic design is the opposite:
 
 >Some art is graphic design, but not all graphic design is art.
- 
+
 What I mean to say is, there are some designers who make art and there are others who create functional materials. There’s certainly room for both (and art can certainly crossover to the functional), but if you’re considering a career in design, I’m here to tell you that you don’t necessarily need to have any eye for art, there are far more important skills to hone. While pieces of design that could be considered art may look exciting, they’re very often impractical and finding a use for it in everyday business is slim to none. This is the kind of design your mom is scared of you to get into.
 
 So what should you do?
@@ -77,12 +77,12 @@ Learn about the printing process itself. While certain colors may display great 
 They say imitation is the greatest form of flattery and you’re going to be doing a lot of imitation at first. That’s okay! *Well… as long as you’re not blatantly ripping off someone’s work, I mean!*
 
 When I was in school, I really only focused on doing my own thing. I learned color theory and the printing process but was mostly oblivious to design in the real world, despite studying trends. It wasn’t until I graduated and started working in the industry that I really started noticing good design. In school, we’re all attracted to the colorful works that lean more toward art. If you were paying attention above, these certainly have their place, but they’re not practical in business. If you study a successful business’s ads you’ll soon realize why their campaigns are successful.
- 
+
 >Design in business is about building a brand.
- 
+
 The quicker you realize and embrace this, the more successful you’ll be. Design and branding go hand-in-hand, it all ties into marketing. Agencies carefully select colors and images to convey their message. Strong promotional materials are successful because they follow guidelines that strengthen the overall brand or cause.
 
- 
+
 ![Material Design Background](/images/posts/material.jpg "Material Design Background")
 
 
@@ -103,10 +103,10 @@ In my years as a designer, I’ve seen some great design and I’ve also seen a 
 **Know who your audience is and tailor your piece to them.**
 
 While I’m sure these parents are still going to read the information because they care about their child’s education, they’re not going to be engaged and they probably won’t retain much of the information in the end. Remember:
- 
+
 >Design is not always about making things look pretty. Effective design is characterized by the attributes that maximize functionality and make things easy to understand. **Good design that will stand the test of time is, at its core, simple.**
 
- 
+
 ![Screenshot of Code on Screen](/images/posts/code.jpg "Screenshot of Code on Screen")
 
 
@@ -125,7 +125,7 @@ While there are still graphic-only related jobs out there, they mostly only exis
 Not excited about your program’s approach to learning to code? [Codecademy](http://codecademy.com) is a great place to start. It’s interactive and they actually teach you skills that are useful in the industry.
 
 ---
- 
+
 So there we have it, it was long (sorry about that!), but I hope this article can, at least, help someone out there. If you have any questions, please, feel free to ask. I’d love to help!
 
 Looking for some more resources to learn a little more?  Check these out:
