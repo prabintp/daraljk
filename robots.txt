@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /resume
 Disallow: /resume/
 Disallow: /resume/index.html
+Sitemap: https://dinsmoredesign.com/sitemap.xml

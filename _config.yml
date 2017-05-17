@@ -1,9 +1,9 @@
 # Site settings
 title: Dinsmore Design
 email: derek@dinsmore-design.com
-description: > # this means to ignore newlines until "baseurl:"
-  We help clients develop their brand, strengthen marketing strategies and acquire
-  life-long customers through creative and visually stunning communication.
+description: >
+  Design and Development - Built for YOU! Creating your company's website is about building your brand. We build brands for companies who want to create meaningful relationships with their clients.
+lang: en-US
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://dinsmoredesign.com" # the base hostname & protocol for your site
 facebook_username: ddinsmoredesign
@@ -21,15 +21,17 @@ pubdate: 2016-10-05 00:00:00 -0700
 # SEO Stuff:
 
 facebook:
-  app_id: 555404704576320
+  # app_id: 555404704576320
   publisher: 555404704576320
-  admins: 555404704576320
+  # admins: 555404704576320
 twitter:
   username: dinsmoredesign
 social:
   links:
     - https://www.facebook.com/ddinsmoredesign
     - https://twitter.com/dinsmoredesign
+    - https://www.instagram.com/dinsmoredesign/
+    - https://github.com/DinsmoreDesign
 logo: /images/mark.jpg
 google_site_verification: Je_N8gBJkCkgNH7CGBcP1Lx8GebKzVdXVQWx-KjgkmY
 google_analytics: UA-30270281-1
