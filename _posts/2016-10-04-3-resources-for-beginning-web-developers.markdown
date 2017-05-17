@@ -3,12 +3,12 @@ layout: post
 comments: true
 permalink: /blog/:title/
 
-title:  3 Resources for Beginning Web Developers
-date:   2016-10-4
+title: 3 Resources for Beginning Web Developers
+date: 2016-10-4
 
-image: /images/posts/dev-title.jpg
-thumbnail: /images/posts/thumbs/dev-title.jpg
-alt: Code on computer screen
+image: /images/posts/webdev.png
+thumbnail: /images/posts/thumbs/webdev.png
+alt: Website page layout
 
 excerpt:
 

@@ -16,6 +16,7 @@ dribble_username:
 dribble_url:
 github_username: DinsmoreDesign
 github_url: https://github.com/DinsmoreDesign
+pubdate: 2016-10-05 00:00:00 -0700
 
 # SEO Stuff:
 
@@ -52,7 +53,7 @@ gems:
   - jekyll-seo-tag
   - jekyll/minibundle
   # - jekyll-paginate
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-sitemap
 
 collections:
