@@ -1,28 +1,56 @@
 ---
 layout: default
 section_id: home
-title: Don't settle for mediocre
+title: Enhance Your Procurment with Us...
 image: /images/mark.jpg
 
 custom_js:
   - masonry.pkgd
   - imagesloaded.pkgd.min
+  - slick.min
   - jquery.appear
   - jquery.validate
   - form-validate
   - parallax.min
+
+clients:
+
+  - img: /images/clients/securitytitle.svg
+    alt: Security Title Agency
+    url: http://securitytitle.com/
+  - img: /images/clients/colorroom.svg
+    alt: Color Room Films
+    url: http://colorroomfilms.com/
+  - img: /images/clients/digitaliso.svg
+    alt: DigitalISO
+    url: http://digitaliso.com/
+  - img: /images/clients/altitude.svg
+    alt: Altitude Productions
+    url: http://altitudeproductionstudio.com/
+  - img: /images/clients/remax.svg
+    alt: ReMax
+    url: http://remax.com/
+  - img: /images/clients/yjsw.svg
+    alt: Your Jersey Shore Wedding
+    url: http://yourjerseyshorewedding.com/
+  - img: /images/clients/tequa.svg
+    alt: Tequa Builders
+    url: http://tequabuilders.com/
+  - img: /images/clients/verde.svg
+    alt: Verde Vintage & Thrift
+    url: http://verdevintageaz.com/
 ---
 <style type="text/css">
   .modMasonryGallery ul.gallery li.wide {
-    width: 25% !important;
+    width: 33% !important;
   }
 </style>
 
-<div id="home-hero" class="parallax-window" data-parallax="scroll" data-image-src="/images/pages/home1.jpg">
+<div id="home-hero" class="parallax-window" data-parallax="scroll" data-image-src="/images/pages/chome1.jpg">
   <div class="hero-text">
     <h1>{{ page.title }}</h1>
     <p>
-      We develop <strong>bold</strong> websites for <strong>bold</strong> brands.
+        <strong>Trusted</strong>  and <strong>reputed</strong>  company in procuring and supplying of products.
     </p>
   </div>
 </div>
@@ -30,9 +58,10 @@ custom_js:
 <div id="home-callout" class="full" style="padding: 140px 0 120px 0;">
   <div class="row">
     <div class="large-12 columns">
-      <h2 class="text-center" style="color: #333">Design & Development - Built for YOU</h2>
+      <h2 class="text-center" style="color: #333">we handling - <strong>procuring</strong> & supplying of <strong>products</h2>
       <p class="text-center">
-         Creating your company's website is about building your brand. <strong>We build brands</strong> for companies who want to create meaningful relationships with their clients.
+          We believe in long term business relationship and great customer service and work towards the same.
+           In doing so we offer special offers and services that are provided by our trusted suppliers and product manufactures.
       </p>
     </div>
   </div>
@@ -42,17 +71,26 @@ custom_js:
   <div class="row">
     <div class="small-12 columns">
       <h3>
-        We get it, hiring a web developer or designer can be scary
+          Dar Al Falah General Trading...
       </h3>
       <p>
-        Do you own a small business without much capital to spend and you're not sure whether hiring a professional is worth it? Already have a Wix, Squarespace or GoDaddy website and you're already making your own promotional materials, but you want to step up your game and you're confused about how much value a professional can add to your business? Maybe you just don't understand the process and you're scared of the unknown? We want our clients to be as comfortable with us as possible. If you're on the fence about hiring a professional (<strong>don't worry - you're not alone!</strong>), we're always here to talk!
+          We are trusted and reputed company in UAE for procuring and supplying of products like <strong> Banding tapes, Packaging items, Lanyard, badge reel, 
+          access card, Promotional and gift products ,Electronics and IT accessories, Office stationeries, Printing stationeries, stickers, labels, booklets, paper rolls...</strong> all products at competitive pricing with the added benefit of a customer friendly environment.
       </p>
       <h3>
         Full transparency
       </h3>
       <p>
-        Most of our competitors will try to upsell you on extras you probably don't need or won't need for years to come. They'll purposely use industry jargon to confuse you because they know you're not well enough informed on the topic to say no. <strong>If we don't think you need it, we won't try to sell it to you.</strong> It's that simple - we believe in honest client interactions and will always keep your best interests in mind. Confused by something we might say? Ask and we'll be glad to explain!
+        Most of our competitors will try to upsell you on your requirments 
+        - we believe in honest client interactions and will always keep your best interests in mind.
+        We believe in long term business relationship and great customer service and work towards the same. In doing so we offer special offers
+         and services that are provided by our trusted suppliers and product manufactures.
       </p>
+      <h3>
+        Our commitment
+      </h3>
+      <p>Inustries resources allow Dar Al Falah to obtain superior products and materials at the lowest prices while always maintaining the highest quality and standards. This on going commitment maintaining solid 
+        client relationships is what allows ‘DAF’ to be the most trusted name in the industry.</p>
       <h3>
         Ready to learn more?
       </h3>
@@ -90,9 +128,9 @@ custom_js:
 
 <div class="mod modMasonryGallery">
   <ul class="gallery">
-    {% assign items = site.portfolio | sort: 'date' | reverse %}
+    {% assign items = site.products | sort: 'date' | reverse %}
     {% for item in items limit: 8 %}
-      <li>
+      <li class="wide">
         <a href="{{item.url}}" title="View a case study on: {{item.title}}">
           <img alt="{{item.title}}" src="{{item.thumbnail}}" />
           <div class="overlay">
@@ -105,6 +143,23 @@ custom_js:
       </li>
     {% endfor %}
   </ul>
+</div>
+
+<div class="full">
+  <div class="row">
+    <div class="large-12 columns">
+      <h3>Recent Clients:</h3>
+      <div class="spacing"></div>
+      <div class="mod modClients" data-slides_to_show="5">
+        <div class="clients">
+          {% for client in page.clients %}
+            <div><a href="{{client.url}}" title="Visit the {{client.alt}} website"><img alt="{{client.alt}} Logo" src="{{client.img}}" /></a></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="four spacing"></div>
 </div>
 
 <div class="full" style="padding: 140px 0 120px 0;">

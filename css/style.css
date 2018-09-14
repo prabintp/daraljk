@@ -2884,17 +2884,21 @@ body {
   justify-content: center;
 }
 .hero-text {
-  max-width: 50%;
+  max-width: 75%;
   text-align: center;
 }
   .hero-text h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #FFF;
+    background-color: rgba(0, 0, 0, 0.3);
+      padding:0px 16px;
   }
   .hero-text p {
     font-size: 2rem;
     color: #FFF;
     text-transform: lowercase;
+    background-color: rgba(0, 0, 0, 0.3);
+      padding:0px 16px;
   }
 
 @media (max-height: 500px), (max-width: 600px) {
@@ -2902,15 +2906,19 @@ body {
     max-width: 75%;
     text-align: center;
   }
-    .hero-text h1 {
+   /* .hero-text h1 {
       font-size: 3rem;
       color: #FFF;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding:0px 16px;
     }
     .hero-text p {
       font-size: 1rem;
       color: #FFF;
       text-transform: lowercase;
-    }
+      background-color: rgba(0, 0, 0, 0.3);
+      padding:0px 16px;
+    }*/
 }
 button:hover, button:focus, .button:hover, .button:focus {
   background-color: transparent;

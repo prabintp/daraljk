@@ -1,5 +1,5 @@
 # Site settings
-title: Dinsmore Design
+title: Daralfalah
 email: derek@dinsmore-design.com
 description: >
   Design and Development - Built for YOU! Creating your company's website is about building your brand. We build brands for companies who want to create meaningful relationships with their clients.
@@ -32,7 +32,7 @@ social:
     - https://twitter.com/dinsmoredesign
     - https://www.instagram.com/dinsmoredesign/
     - https://github.com/DinsmoreDesign
-logo: /images/mark.jpg
+logo: /images/daralflah.png
 google_site_verification: Je_N8gBJkCkgNH7CGBcP1Lx8GebKzVdXVQWx-KjgkmY
 google_analytics: UA-30270281-1
 author:
@@ -48,7 +48,7 @@ permalink: pretty
 # Minifier settings
 minibundle:
   minifier_commands:
-    js: node_modules/.bin/uglifyjs -
+    js: node_modules/.bin/uglifyjs
 
 gems:
 
@@ -62,6 +62,9 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
+  products:
+    output: true
+    permalink: /products/:path/
 
 exclude:
   - node_modules
