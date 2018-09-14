@@ -48,7 +48,7 @@ permalink: pretty
 # Minifier settings
 minibundle:
   minifier_commands:
-    js: /node_modules/.bin/uglifyjs
+    js: node_modules/.bin/uglifyjs -
 
 gems:
 
