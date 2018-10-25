@@ -50,7 +50,7 @@ minibundle:
   minifier_commands:
     js: node_modules/.bin/uglifyjs
 
-gems:
+plugins:
 
   - jekyll-seo-tag
   - jekyll/minibundle
