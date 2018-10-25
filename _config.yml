@@ -4,7 +4,7 @@ email: derek@dinsmore-design.com
 description: >
   Design and Development - Built for YOU! Creating your company's website is about building your brand. We build brands for companies who want to create meaningful relationships with their clients.
 lang: en-US
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/daraljk/" # the subpath of your site, e.g. /blog/
 url: "https://dinsmoredesign.com" # the base hostname & protocol for your site
 facebook_username: ddinsmoredesign
 facebook_url: https://www.facebook.com/ddinsmoredesign
